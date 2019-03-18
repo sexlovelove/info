@@ -19,7 +19,20 @@ def get_user_info():
     2. 返回模型中指定内容
     :return:
     """
-    pass
+    # 1.获取到当前登录的用户模型
+    user_id = g.user_id
+
+    try:
+        user = User.query.get(user_id)
+    except Exception as e:
+        current_app.logger.error(e)
+        return jsonify(errno=RET.DBERR, errmsg="")
+
+    if not user:
+        return jsonify(errno=RET.NODATA, errmsg="用户不存在")
+
+    # 2.返回模型中指定内容
+    return jsonify(errno=RET.OK, errmsg="OK", data=user.to_dict())
 
 
 # 修改用户名
@@ -62,6 +75,7 @@ def get_user_auth():
     :return:
     """
     pass
+
 
 # 设置用户实名信息
 @api_blu.route('/user/auth', methods=["POST"])

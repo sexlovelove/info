@@ -22,7 +22,7 @@ def get_user_house_list():
     2. 查询数据
     :return:
     """
-   pass
+    pass
 
 
 # 获取地区信息

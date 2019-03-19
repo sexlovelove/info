@@ -149,8 +149,8 @@ def set_user_auth():
     user_id = g.user_id
 
     #2.取到传过来的认证的信息
-    real_name = request.form.get("real_name")
-    id_card = request.form.get("id_card")
+    real_name = request.json.get("real_name")
+    id_card = request.json.get("id_card")
     if not all([real_name, id_card]):
         return jsonify(errno=RET.PARAMERR, errmsg="参数不足")
 

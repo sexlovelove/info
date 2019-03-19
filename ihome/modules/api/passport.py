@@ -141,4 +141,8 @@ def logout():
     1. 清除session中的对应登录之后保存的信息
     :return:
     """
-    pass
+    session.pop("user_id", None)
+    session.pop("mobile", None)
+    session.pop("name", None)
+
+    return jsonify(errno=RET.OK, errmsg="退出成功")

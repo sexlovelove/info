@@ -91,12 +91,23 @@ def get_house_detail(house_id):
 
 # 获取首页展示内容
 @api_blu.route('/houses/index')
+@login_required
 def house_index():
     """
     获取首页房屋列表
     :return:
     """
-    pass
+    user_id = g.user_id
+    houses = House.query.filter(House.user_id == user_id).limit(constants.HOME_PAGE_MAX_HOUSES).all()
+
+    if not houses:
+        return jsonify(errno=RET.NODATA, errmsg="该房子不存在")
+
+    house_list = []
+    for house in houses if houses else []:
+        house_list.append(house.to_basic_dict())
+
+    return jsonify(errno=RET.OK, errmsg="ok", data=house_list)
 
 
 # 搜索房屋/获取房屋列表

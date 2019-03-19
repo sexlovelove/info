@@ -6679,3 +6679,15 @@ INFO /home/python/.virtualenvs/flask_python24/lib/python3.6/site-packages/werkze
 INFO /home/python/.virtualenvs/flask_python24/lib/python3.6/site-packages/werkzeug/_internal.py:88 127.0.0.1 - - [18/Mar/2019 17:38:02] "GET /static/js/ihome/register.js?v=4 HTTP/1.1" 200 -
 INFO /home/python/.virtualenvs/flask_python24/lib/python3.6/site-packages/werkzeug/_internal.py:88 127.0.0.1 - - [18/Mar/2019 17:38:02] "GET /api/v1.0/imagecode?cur=a80825f3-2749-44e3-a47a-74a931907073&pre= HTTP/1.1" 500 -
 INFO /home/python/.virtualenvs/flask_python24/lib/python3.6/site-packages/werkzeug/_internal.py:88 127.0.0.1 - - [18/Mar/2019 17:38:04] "GET /api/v1.0/imagecode?cur=fe5aee2c-557b-4be8-84ab-e301a7878616&pre=a80825f3-2749-44e3-a47a-74a931907073 HTTP/1.1" 500 -
+INFO /home/python/.vritualenvs/py3_flask/lib/python3.6/site-packages/werkzeug/_internal.py:88  * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+INFO /home/python/.vritualenvs/py3_flask/lib/python3.6/site-packages/werkzeug/_internal.py:88  * Restarting with stat
+WARNING /home/python/.vritualenvs/py3_flask/lib/python3.6/site-packages/werkzeug/_internal.py:88  * Debugger is active!
+INFO /home/python/.vritualenvs/py3_flask/lib/python3.6/site-packages/werkzeug/_internal.py:88  * Debugger PIN: 418-094-954
+INFO /home/python/.vritualenvs/py3_flask/lib/python3.6/site-packages/werkzeug/_internal.py:88 127.0.0.1 - - [19/Mar/2019 15:22:10] "GET /api/v1.0/session HTTP/1.1" 500 -
+INFO /home/python/.vritualenvs/py3_flask/lib/python3.6/site-packages/werkzeug/_internal.py:88 127.0.0.1 - - [19/Mar/2019 15:22:10] "GET /api/v1.0/houses/index HTTP/1.1" 500 -
+INFO /home/python/.vritualenvs/py3_flask/lib/python3.6/site-packages/werkzeug/_internal.py:88 127.0.0.1 - - [19/Mar/2019 15:22:10] "GET /api/v1.0/areas HTTP/1.1" 500 -
+INFO /home/python/.vritualenvs/py3_flask/lib/python3.6/site-packages/werkzeug/_internal.py:88 127.0.0.1 - - [19/Mar/2019 15:22:14] "GET /static/plugins/swiper/js/maps/swiper.jquery.min.js.map HTTP/1.1" 404 -
+INFO /home/python/.vritualenvs/py3_flask/lib/python3.6/site-packages/werkzeug/_internal.py:88 127.0.0.1 - - [19/Mar/2019 15:22:16] "GET /%7B%7B%20url_for( HTTP/1.1" 404 -
+INFO /home/python/.vritualenvs/py3_flask/lib/python3.6/site-packages/werkzeug/_internal.py:88 127.0.0.1 - - [19/Mar/2019 15:22:17] "GET /api/v1.0/imagecode?cur=8702d7fd-6ca2-4650-b446-d3d24e4caff2&pre= HTTP/1.1" 200 -
+INFO /home/python/.vritualenvs/py3_flask/lib/python3.6/site-packages/werkzeug/_internal.py:88 127.0.0.1 - - [19/Mar/2019 15:22:18] "GET /api/v1.0/imagecode?cur=f6b9e18f-a6c3-4e4a-8cc2-8386c3ca789f&pre=8702d7fd-6ca2-4650-b446-d3d24e4caff2 HTTP/1.1" 200 -
+INFO /home/python/.vritualenvs/py3_flask/lib/python3.6/site-packages/werkzeug/_internal.py:88 127.0.0.1 - - [19/Mar/2019 15:22:19] "GET /api/v1.0/imagecode?cur=a52976a1-f9b7-4e6d-a861-0f19d9035403&pre=f6b9e18f-a6c3-4e4a-8cc2-8386c3ca789f HTTP/1.1" 200 -

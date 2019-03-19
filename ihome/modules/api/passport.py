@@ -20,8 +20,22 @@ def get_image_code():
     4. 返回验证码图片
     :return:
     """
-    pass
+    # 1. 获取传入的验证码编号，并编号是否有值
+    cur = request.args.get("cur")
 
+    if not cur:
+        return abort(404)
+
+    # 2. 生成图片验证码
+    image_name, real_image_code, image_data = captcha.generate_captcha()
+
+    # 3. 保存编号和其对应的图片验证码内容到redis
+    sr.setex("Image_Code_%s" % cur, constants.IMAGE_CODE_REDIS_EXPIRES, real_image_code)
+
+    # 4. 返回验证码图片
+    response = make_response(image_data)
+    response.headers["Content-Type"] = "image/png"
+    return response
 
 
 # 获取短信验证码

@@ -6815,3 +6815,116 @@ INFO /home/python/.virtualenvs/flask_python24/lib/python3.6/site-packages/werkze
 INFO /home/python/.virtualenvs/flask_python24/lib/python3.6/site-packages/werkzeug/_internal.py:88 127.0.0.1 - - [19/Mar/2019 21:06:16] "GET /api/v1.0/session HTTP/1.1" 200 -
 INFO /home/python/.virtualenvs/flask_python24/lib/python3.6/site-packages/werkzeug/_internal.py:88 127.0.0.1 - - [19/Mar/2019 21:06:16] "GET /api/v1.0/houses/index HTTP/1.1" 200 -
 INFO /home/python/.virtualenvs/flask_python24/lib/python3.6/site-packages/werkzeug/_internal.py:88 127.0.0.1 - - [19/Mar/2019 21:06:16] "GET /api/v1.0/areas HTTP/1.1" 500 -
+INFO /home/python/.virtualenvs/flask_python24/lib/python3.6/site-packages/werkzeug/_internal.py:88  * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+INFO /home/python/.virtualenvs/flask_python24/lib/python3.6/site-packages/werkzeug/_internal.py:88  * Restarting with stat
+WARNING /home/python/.virtualenvs/flask_python24/lib/python3.6/site-packages/werkzeug/_internal.py:88  * Debugger is active!
+INFO /home/python/.virtualenvs/flask_python24/lib/python3.6/site-packages/werkzeug/_internal.py:88  * Debugger PIN: 312-164-200
+INFO /home/python/.virtualenvs/flask_python24/lib/python3.6/site-packages/werkzeug/_internal.py:88 127.0.0.1 - - [19/Mar/2019 21:16:07] "GET /api/v1.0/session HTTP/1.1" 200 -
+INFO /home/python/.virtualenvs/flask_python24/lib/python3.6/site-packages/werkzeug/_internal.py:88 127.0.0.1 - - [19/Mar/2019 21:16:07] "GET /api/v1.0/houses/index HTTP/1.1" 200 -
+INFO /home/python/.virtualenvs/flask_python24/lib/python3.6/site-packages/werkzeug/_internal.py:88 127.0.0.1 - - [19/Mar/2019 21:16:07] "GET /api/v1.0/areas HTTP/1.1" 500 -
+INFO /home/python/.virtualenvs/flask_python24/lib/python3.6/site-packages/werkzeug/_internal.py:88 127.0.0.1 - - [19/Mar/2019 21:16:28] "POST /api/v1.0/session HTTP/1.1" 200 -
+INFO /home/python/.virtualenvs/flask_python24/lib/python3.6/site-packages/werkzeug/_internal.py:88 127.0.0.1 - - [19/Mar/2019 21:16:28] "GET /api/v1.0/session HTTP/1.1" 200 -
+INFO /home/python/.virtualenvs/flask_python24/lib/python3.6/site-packages/werkzeug/_internal.py:88 127.0.0.1 - - [19/Mar/2019 21:16:28] "GET /api/v1.0/houses/index HTTP/1.1" 200 -
+INFO /home/python/.virtualenvs/flask_python24/lib/python3.6/site-packages/werkzeug/_internal.py:88 127.0.0.1 - - [19/Mar/2019 21:16:28] "GET /api/v1.0/areas HTTP/1.1" 500 -
+INFO /home/python/.virtualenvs/flask_python24/lib/python3.6/site-packages/werkzeug/_internal.py:88 127.0.0.1 - - [19/Mar/2019 21:16:30] "GET /api/v1.0/user HTTP/1.1" 200 -
+INFO /home/python/.virtualenvs/flask_python24/lib/python3.6/site-packages/werkzeug/_internal.py:88  * Detected change in '/home/python/Desktop/info/ihome/utils/constants.py', reloading
+INFO /home/python/.virtualenvs/flask_python24/lib/python3.6/site-packages/werkzeug/_internal.py:88  * Restarting with stat
+WARNING /home/python/.virtualenvs/flask_python24/lib/python3.6/site-packages/werkzeug/_internal.py:88  * Debugger is active!
+INFO /home/python/.virtualenvs/flask_python24/lib/python3.6/site-packages/werkzeug/_internal.py:88  * Debugger PIN: 312-164-200
+INFO /home/python/.virtualenvs/flask_python24/lib/python3.6/site-packages/werkzeug/_internal.py:88  * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+INFO /home/python/.virtualenvs/flask_python24/lib/python3.6/site-packages/werkzeug/_internal.py:88  * Restarting with stat
+WARNING /home/python/.virtualenvs/flask_python24/lib/python3.6/site-packages/werkzeug/_internal.py:88  * Debugger is active!
+INFO /home/python/.virtualenvs/flask_python24/lib/python3.6/site-packages/werkzeug/_internal.py:88  * Debugger PIN: 312-164-200
+INFO /home/python/.virtualenvs/flask_python24/lib/python3.6/site-packages/werkzeug/_internal.py:88 127.0.0.1 - - [19/Mar/2019 21:19:47] "GET /api/v1.0/session HTTP/1.1" 200 -
+INFO /home/python/.virtualenvs/flask_python24/lib/python3.6/site-packages/werkzeug/_internal.py:88 127.0.0.1 - - [19/Mar/2019 21:19:47] "GET /api/v1.0/houses/index HTTP/1.1" 200 -
+INFO /home/python/.virtualenvs/flask_python24/lib/python3.6/site-packages/werkzeug/_internal.py:88 127.0.0.1 - - [19/Mar/2019 21:19:47] "GET /api/v1.0/areas HTTP/1.1" 500 -
+INFO /home/python/.virtualenvs/flask_python24/lib/python3.6/site-packages/werkzeug/_internal.py:88 127.0.0.1 - - [19/Mar/2019 21:19:47] "GET /api/v1.0/session HTTP/1.1" 200 -
+INFO /home/python/.virtualenvs/flask_python24/lib/python3.6/site-packages/werkzeug/_internal.py:88 127.0.0.1 - - [19/Mar/2019 21:19:47] "GET /api/v1.0/houses/index HTTP/1.1" 200 -
+INFO /home/python/.virtualenvs/flask_python24/lib/python3.6/site-packages/werkzeug/_internal.py:88 127.0.0.1 - - [19/Mar/2019 21:19:47] "GET /api/v1.0/areas HTTP/1.1" 500 -
+INFO /home/python/.virtualenvs/flask_python24/lib/python3.6/site-packages/werkzeug/_internal.py:88 127.0.0.1 - - [19/Mar/2019 21:19:53] "GET /api/v1.0/user HTTP/1.1" 200 -
+INFO /home/python/.virtualenvs/flask_python24/lib/python3.6/site-packages/werkzeug/_internal.py:88 127.0.0.1 - - [19/Mar/2019 21:19:58] "GET /api/v1.0/session HTTP/1.1" 200 -
+INFO /home/python/.virtualenvs/flask_python24/lib/python3.6/site-packages/werkzeug/_internal.py:88 127.0.0.1 - - [19/Mar/2019 21:19:58] "GET /api/v1.0/houses/index HTTP/1.1" 200 -
+INFO /home/python/.virtualenvs/flask_python24/lib/python3.6/site-packages/werkzeug/_internal.py:88 127.0.0.1 - - [19/Mar/2019 21:19:58] "GET /api/v1.0/areas HTTP/1.1" 500 -
+INFO /home/python/.virtualenvs/flask_python24/lib/python3.6/site-packages/werkzeug/_internal.py:88 127.0.0.1 - - [19/Mar/2019 21:20:00] "GET /api/v1.0/user HTTP/1.1" 200 -
+INFO /home/python/.virtualenvs/flask_python24/lib/python3.6/site-packages/werkzeug/_internal.py:88 127.0.0.1 - - [19/Mar/2019 21:20:01] "GET /profile.html HTTP/1.1" 200 -
+INFO /home/python/.virtualenvs/flask_python24/lib/python3.6/site-packages/werkzeug/_internal.py:88 127.0.0.1 - - [19/Mar/2019 21:20:01] "GET /static/css/ihome/profile.css HTTP/1.1" 200 -
+INFO /home/python/.virtualenvs/flask_python24/lib/python3.6/site-packages/werkzeug/_internal.py:88 127.0.0.1 - - [19/Mar/2019 21:20:01] "GET /static/js/jquery.form.min.js HTTP/1.1" 200 -
+INFO /home/python/.virtualenvs/flask_python24/lib/python3.6/site-packages/werkzeug/_internal.py:88 127.0.0.1 - - [19/Mar/2019 21:20:01] "GET /static/js/ihome/profile.js?v=5 HTTP/1.1" 200 -
+INFO /home/python/.virtualenvs/flask_python24/lib/python3.6/site-packages/werkzeug/_internal.py:88 127.0.0.1 - - [19/Mar/2019 21:20:01] "GET /api/v1.0/user HTTP/1.1" 200 -
+INFO /home/python/.virtualenvs/flask_python24/lib/python3.6/site-packages/werkzeug/_internal.py:88 127.0.0.1 - - [19/Mar/2019 21:20:03] "POST /api/v1.0/user/avatar HTTP/1.1" 200 -
+DEBUG /home/python/.virtualenvs/flask_python24/lib/python3.6/site-packages/urllib3/connectionpool.py:813 Starting new HTTPS connection (1): uc.qbox.me:443
+DEBUG /home/python/.virtualenvs/flask_python24/lib/python3.6/site-packages/urllib3/connectionpool.py:393 https://uc.qbox.me:443 "GET /v1/query?ak=G0T0OXtgaqGajV77S56w-HRFZoF07cEBY8h8BU6Z&bucket=information HTTP/1.1" 200 238
+DEBUG /home/python/.virtualenvs/flask_python24/lib/python3.6/site-packages/urllib3/util/retry.py:210 Converted retries value: 3 -> Retry(total=3, connect=None, read=None, redirect=None, status=None)
+DEBUG /home/python/.virtualenvs/flask_python24/lib/python3.6/site-packages/urllib3/connectionpool.py:205 Starting new HTTP connection (1): up.qiniu.com:80
+DEBUG /home/python/.virtualenvs/flask_python24/lib/python3.6/site-packages/urllib3/connectionpool.py:393 http://up.qiniu.com:80 "POST / HTTP/1.1" 200 76
+INFO /home/python/.virtualenvs/flask_python24/lib/python3.6/site-packages/werkzeug/_internal.py:88 127.0.0.1 - - [19/Mar/2019 21:20:18] "POST /api/v1.0/user/avatar HTTP/1.1" 200 -
+DEBUG /home/python/.virtualenvs/flask_python24/lib/python3.6/site-packages/urllib3/connectionpool.py:393 http://up.qiniu.com:80 "POST / HTTP/1.1" 200 76
+INFO /home/python/.virtualenvs/flask_python24/lib/python3.6/site-packages/werkzeug/_internal.py:88 127.0.0.1 - - [19/Mar/2019 21:20:21] "POST /api/v1.0/user/avatar HTTP/1.1" 200 -
+INFO /home/python/.virtualenvs/flask_python24/lib/python3.6/site-packages/werkzeug/_internal.py:88 127.0.0.1 - - [19/Mar/2019 21:20:41] "GET /profile.html HTTP/1.1" 304 -
+INFO /home/python/.virtualenvs/flask_python24/lib/python3.6/site-packages/werkzeug/_internal.py:88 127.0.0.1 - - [19/Mar/2019 21:20:41] "GET /api/v1.0/user HTTP/1.1" 200 -
+INFO /home/python/.virtualenvs/flask_python24/lib/python3.6/site-packages/werkzeug/_internal.py:88 127.0.0.1 - - [19/Mar/2019 21:20:41] "GET /favicon.ico HTTP/1.1" 200 -
+INFO /home/python/.virtualenvs/flask_python24/lib/python3.6/site-packages/werkzeug/_internal.py:88 127.0.0.1 - - [19/Mar/2019 21:20:52] "POST /api/v1.0/user/name HTTP/1.1" 500 -
+INFO /home/python/.virtualenvs/flask_python24/lib/python3.6/site-packages/werkzeug/_internal.py:88 127.0.0.1 - - [19/Mar/2019 21:20:55] "GET /api/v1.0/user HTTP/1.1" 200 -
+INFO /home/python/.virtualenvs/flask_python24/lib/python3.6/site-packages/werkzeug/_internal.py:88 127.0.0.1 - - [19/Mar/2019 21:20:58] "GET /api/v1.0/session HTTP/1.1" 200 -
+INFO /home/python/.virtualenvs/flask_python24/lib/python3.6/site-packages/werkzeug/_internal.py:88 127.0.0.1 - - [19/Mar/2019 21:20:58] "GET /api/v1.0/houses/index HTTP/1.1" 200 -
+INFO /home/python/.virtualenvs/flask_python24/lib/python3.6/site-packages/werkzeug/_internal.py:88 127.0.0.1 - - [19/Mar/2019 21:20:58] "GET /api/v1.0/areas HTTP/1.1" 500 -
+INFO /home/python/.virtualenvs/flask_python24/lib/python3.6/site-packages/werkzeug/_internal.py:88 127.0.0.1 - - [19/Mar/2019 21:21:00] "GET /api/v1.0/user HTTP/1.1" 200 -
+INFO /home/python/.virtualenvs/flask_python24/lib/python3.6/site-packages/werkzeug/_internal.py:88  * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+INFO /home/python/.virtualenvs/flask_python24/lib/python3.6/site-packages/werkzeug/_internal.py:88  * Restarting with stat
+WARNING /home/python/.virtualenvs/flask_python24/lib/python3.6/site-packages/werkzeug/_internal.py:88  * Debugger is active!
+INFO /home/python/.virtualenvs/flask_python24/lib/python3.6/site-packages/werkzeug/_internal.py:88  * Debugger PIN: 312-164-200
+INFO /home/python/.virtualenvs/flask_python24/lib/python3.6/site-packages/werkzeug/_internal.py:88 127.0.0.1 - - [19/Mar/2019 21:23:50] "GET / HTTP/1.1" 200 -
+INFO /home/python/.virtualenvs/flask_python24/lib/python3.6/site-packages/werkzeug/_internal.py:88 127.0.0.1 - - [19/Mar/2019 21:23:50] "GET /static/plugins/bootstrap/css/bootstrap.min.css HTTP/1.1" 200 -
+INFO /home/python/.virtualenvs/flask_python24/lib/python3.6/site-packages/werkzeug/_internal.py:88 127.0.0.1 - - [19/Mar/2019 21:23:50] "GET /static/plugins/font-awesome/css/font-awesome.min.css HTTP/1.1" 200 -
+INFO /home/python/.virtualenvs/flask_python24/lib/python3.6/site-packages/werkzeug/_internal.py:88 127.0.0.1 - - [19/Mar/2019 21:23:50] "GET /static/css/reset.css HTTP/1.1" 200 -
+INFO /home/python/.virtualenvs/flask_python24/lib/python3.6/site-packages/werkzeug/_internal.py:88 127.0.0.1 - - [19/Mar/2019 21:23:50] "GET /static/plugins/swiper/css/swiper.min.css HTTP/1.1" 200 -
+INFO /home/python/.virtualenvs/flask_python24/lib/python3.6/site-packages/werkzeug/_internal.py:88 127.0.0.1 - - [19/Mar/2019 21:23:50] "GET /static/plugins/bootstrap-datepicker/css/bootstrap-datepicker.min.css HTTP/1.1" 200 -
+INFO /home/python/.virtualenvs/flask_python24/lib/python3.6/site-packages/werkzeug/_internal.py:88 127.0.0.1 - - [19/Mar/2019 21:23:50] "GET /static/css/ihome/main.css HTTP/1.1" 200 -
+INFO /home/python/.virtualenvs/flask_python24/lib/python3.6/site-packages/werkzeug/_internal.py:88 127.0.0.1 - - [19/Mar/2019 21:23:50] "GET /static/css/ihome/index.css HTTP/1.1" 200 -
+INFO /home/python/.virtualenvs/flask_python24/lib/python3.6/site-packages/werkzeug/_internal.py:88 127.0.0.1 - - [19/Mar/2019 21:23:50] "GET /static/js/jquery.min.js HTTP/1.1" 200 -
+INFO /home/python/.virtualenvs/flask_python24/lib/python3.6/site-packages/werkzeug/_internal.py:88 127.0.0.1 - - [19/Mar/2019 21:23:50] "GET /static/plugins/bootstrap/js/bootstrap.min.js HTTP/1.1" 200 -
+INFO /home/python/.virtualenvs/flask_python24/lib/python3.6/site-packages/werkzeug/_internal.py:88 127.0.0.1 - - [19/Mar/2019 21:23:50] "GET /static/plugins/swiper/js/swiper.jquery.min.js HTTP/1.1" 200 -
+INFO /home/python/.virtualenvs/flask_python24/lib/python3.6/site-packages/werkzeug/_internal.py:88 127.0.0.1 - - [19/Mar/2019 21:23:50] "GET /static/plugins/bootstrap-datepicker/js/bootstrap-datepicker.min.js HTTP/1.1" 200 -
+INFO /home/python/.virtualenvs/flask_python24/lib/python3.6/site-packages/werkzeug/_internal.py:88 127.0.0.1 - - [19/Mar/2019 21:23:50] "GET /static/plugins/bootstrap-datepicker/locales/bootstrap-datepicker.zh-CN.min.js HTTP/1.1" 200 -
+INFO /home/python/.virtualenvs/flask_python24/lib/python3.6/site-packages/werkzeug/_internal.py:88 127.0.0.1 - - [19/Mar/2019 21:23:50] "GET /static/js/template.js HTTP/1.1" 200 -
+INFO /home/python/.virtualenvs/flask_python24/lib/python3.6/site-packages/werkzeug/_internal.py:88 127.0.0.1 - - [19/Mar/2019 21:23:50] "GET /static/js/ihome/index.js HTTP/1.1" 200 -
+INFO /home/python/.virtualenvs/flask_python24/lib/python3.6/site-packages/werkzeug/_internal.py:88 127.0.0.1 - - [19/Mar/2019 21:23:50] "GET /static/images/logo@128x59.png HTTP/1.1" 200 -
+INFO /home/python/.virtualenvs/flask_python24/lib/python3.6/site-packages/werkzeug/_internal.py:88 127.0.0.1 - - [19/Mar/2019 21:23:50] "GET /static/plugins/font-awesome/fonts/fontawesome-webfont.woff2?v=4.6.3 HTTP/1.1" 200 -
+INFO /home/python/.virtualenvs/flask_python24/lib/python3.6/site-packages/werkzeug/_internal.py:88 127.0.0.1 - - [19/Mar/2019 21:23:50] "GET /api/v1.0/session HTTP/1.1" 200 -
+INFO /home/python/.virtualenvs/flask_python24/lib/python3.6/site-packages/werkzeug/_internal.py:88 127.0.0.1 - - [19/Mar/2019 21:23:51] "GET /api/v1.0/houses/index HTTP/1.1" 200 -
+INFO /home/python/.virtualenvs/flask_python24/lib/python3.6/site-packages/werkzeug/_internal.py:88 127.0.0.1 - - [19/Mar/2019 21:23:51] "GET /api/v1.0/areas HTTP/1.1" 500 -
+INFO /home/python/.virtualenvs/flask_python24/lib/python3.6/site-packages/werkzeug/_internal.py:88 127.0.0.1 - - [19/Mar/2019 21:23:51] "GET /api/v1.0/session HTTP/1.1" 200 -
+INFO /home/python/.virtualenvs/flask_python24/lib/python3.6/site-packages/werkzeug/_internal.py:88 127.0.0.1 - - [19/Mar/2019 21:23:51] "GET /api/v1.0/houses/index HTTP/1.1" 200 -
+INFO /home/python/.virtualenvs/flask_python24/lib/python3.6/site-packages/werkzeug/_internal.py:88 127.0.0.1 - - [19/Mar/2019 21:23:51] "GET /api/v1.0/areas HTTP/1.1" 500 -
+INFO /home/python/.virtualenvs/flask_python24/lib/python3.6/site-packages/werkzeug/_internal.py:88 127.0.0.1 - - [19/Mar/2019 21:23:56] "GET /my.html HTTP/1.1" 200 -
+INFO /home/python/.virtualenvs/flask_python24/lib/python3.6/site-packages/werkzeug/_internal.py:88 127.0.0.1 - - [19/Mar/2019 21:23:56] "GET /static/css/ihome/my.css HTTP/1.1" 200 -
+INFO /home/python/.virtualenvs/flask_python24/lib/python3.6/site-packages/werkzeug/_internal.py:88 127.0.0.1 - - [19/Mar/2019 21:23:56] "GET /static/js/ihome/my.js HTTP/1.1" 200 -
+INFO /home/python/.virtualenvs/flask_python24/lib/python3.6/site-packages/werkzeug/_internal.py:88 127.0.0.1 - - [19/Mar/2019 21:23:56] "GET /api/v1.0/user HTTP/1.1" 200 -
+INFO /home/python/.virtualenvs/flask_python24/lib/python3.6/site-packages/werkzeug/_internal.py:88 127.0.0.1 - - [19/Mar/2019 21:24:01] "GET /profile.html HTTP/1.1" 200 -
+INFO /home/python/.virtualenvs/flask_python24/lib/python3.6/site-packages/werkzeug/_internal.py:88 127.0.0.1 - - [19/Mar/2019 21:24:01] "GET /static/css/ihome/profile.css HTTP/1.1" 200 -
+INFO /home/python/.virtualenvs/flask_python24/lib/python3.6/site-packages/werkzeug/_internal.py:88 127.0.0.1 - - [19/Mar/2019 21:24:01] "GET /static/js/jquery.form.min.js HTTP/1.1" 200 -
+INFO /home/python/.virtualenvs/flask_python24/lib/python3.6/site-packages/werkzeug/_internal.py:88 127.0.0.1 - - [19/Mar/2019 21:24:01] "GET /static/js/ihome/profile.js?v=5 HTTP/1.1" 200 -
+INFO /home/python/.virtualenvs/flask_python24/lib/python3.6/site-packages/werkzeug/_internal.py:88 127.0.0.1 - - [19/Mar/2019 21:24:01] "GET /api/v1.0/user HTTP/1.1" 200 -
+INFO /home/python/.virtualenvs/flask_python24/lib/python3.6/site-packages/werkzeug/_internal.py:88 127.0.0.1 - - [19/Mar/2019 21:24:05] "GET /api/v1.0/user HTTP/1.1" 200 -
+INFO /home/python/.virtualenvs/flask_python24/lib/python3.6/site-packages/werkzeug/_internal.py:88 127.0.0.1 - - [19/Mar/2019 21:24:07] "GET /auth.html HTTP/1.1" 200 -
+INFO /home/python/.virtualenvs/flask_python24/lib/python3.6/site-packages/werkzeug/_internal.py:88 127.0.0.1 - - [19/Mar/2019 21:24:07] "GET /static/js/ihome/auth.js HTTP/1.1" 200 -
+INFO /home/python/.virtualenvs/flask_python24/lib/python3.6/site-packages/werkzeug/_internal.py:88 127.0.0.1 - - [19/Mar/2019 21:24:07] "GET /api/v1.0/user/auth HTTP/1.1" 200 -
+INFO /home/python/.virtualenvs/flask_python24/lib/python3.6/site-packages/werkzeug/_internal.py:88 127.0.0.1 - - [19/Mar/2019 21:24:40] "POST /api/v1.0/user/auth HTTP/1.1" 200 -
+INFO /home/python/.virtualenvs/flask_python24/lib/python3.6/site-packages/werkzeug/_internal.py:88 127.0.0.1 - - [19/Mar/2019 21:24:47] "GET /static/plugins/bootstrap/css/bootstrap.min.css.map HTTP/1.1" 500 -
+INFO /home/python/.virtualenvs/flask_python24/lib/python3.6/site-packages/werkzeug/_internal.py:88 127.0.0.1 - - [19/Mar/2019 21:24:54] "GET /auth.html HTTP/1.1" 304 -
+INFO /home/python/.virtualenvs/flask_python24/lib/python3.6/site-packages/werkzeug/_internal.py:88 127.0.0.1 - - [19/Mar/2019 21:24:54] "GET /api/v1.0/user/auth HTTP/1.1" 200 -
+INFO /home/python/.virtualenvs/flask_python24/lib/python3.6/site-packages/werkzeug/_internal.py:88 127.0.0.1 - - [19/Mar/2019 21:24:54] "GET /favicon.ico HTTP/1.1" 200 -
+INFO /home/python/.virtualenvs/flask_python24/lib/python3.6/site-packages/werkzeug/_internal.py:88 127.0.0.1 - - [19/Mar/2019 21:24:54] "GET /static/plugins/bootstrap/css/bootstrap.min.css.map HTTP/1.1" 200 -
+INFO /home/python/.virtualenvs/flask_python24/lib/python3.6/site-packages/werkzeug/_internal.py:88 127.0.0.1 - - [19/Mar/2019 21:25:06] "POST /api/v1.0/user/auth HTTP/1.1" 200 -
+INFO /home/python/.virtualenvs/flask_python24/lib/python3.6/site-packages/werkzeug/_internal.py:88  * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+INFO /home/python/.virtualenvs/flask_python24/lib/python3.6/site-packages/werkzeug/_internal.py:88  * Restarting with stat
+WARNING /home/python/.virtualenvs/flask_python24/lib/python3.6/site-packages/werkzeug/_internal.py:88  * Debugger is active!
+INFO /home/python/.virtualenvs/flask_python24/lib/python3.6/site-packages/werkzeug/_internal.py:88  * Debugger PIN: 312-164-200
+INFO /home/python/.virtualenvs/flask_python24/lib/python3.6/site-packages/werkzeug/_internal.py:88 127.0.0.1 - - [19/Mar/2019 21:30:51] "GET /auth.html HTTP/1.1" 304 -
+INFO /home/python/.virtualenvs/flask_python24/lib/python3.6/site-packages/werkzeug/_internal.py:88 127.0.0.1 - - [19/Mar/2019 21:30:51] "GET /api/v1.0/user/auth HTTP/1.1" 200 -
+INFO /home/python/.virtualenvs/flask_python24/lib/python3.6/site-packages/werkzeug/_internal.py:88 127.0.0.1 - - [19/Mar/2019 21:30:51] "GET /favicon.ico HTTP/1.1" 200 -
+INFO /home/python/.virtualenvs/flask_python24/lib/python3.6/site-packages/werkzeug/_internal.py:88 127.0.0.1 - - [19/Mar/2019 21:30:56] "POST /api/v1.0/user/auth HTTP/1.1" 200 -
+INFO /home/python/.virtualenvs/flask_python24/lib/python3.6/site-packages/werkzeug/_internal.py:88  * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+INFO /home/python/.virtualenvs/flask_python24/lib/python3.6/site-packages/werkzeug/_internal.py:88  * Restarting with stat
+WARNING /home/python/.virtualenvs/flask_python24/lib/python3.6/site-packages/werkzeug/_internal.py:88  * Debugger is active!
+INFO /home/python/.virtualenvs/flask_python24/lib/python3.6/site-packages/werkzeug/_internal.py:88  * Debugger PIN: 312-164-200

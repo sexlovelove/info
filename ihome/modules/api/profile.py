@@ -107,7 +107,28 @@ def get_user_auth():
     4. 返回信息
     :return:
     """
-    pass
+    #1.取到当前登录用户id
+    user_id = g.user_id
+    if not user_id:
+        return jsonify(errno=RET.NODATA, errmsg="请登录")
+
+    #2.通过id查找到当前用户
+    user = None
+    try:
+        user = User.query.get(user_id)
+    except Exception as e:
+        current_app.logger.error(e)
+        return jsonify(errno=RET.NODATA, errmsg="未查询到数据")
+
+    #3.获取当前用户的认证信息
+    real_name = user.real_name
+    id_card = user.id_card
+    data = {
+        "real_name": real_name,
+        "id_card": id_card
+    }
+
+    return jsonify(errmsg="OK", errno=RET.OK, data=data)
 
 
 # 设置用户实名信息
@@ -123,4 +144,37 @@ def set_user_auth():
     6. 返回结果
     :return:
     """
-    pass
+    # 1.取到当前登录用户id
+    user_id = g.user_id
+
+    # 2.取到传过来的认证的信息
+    real_name = request.json.get("real_name")
+    id_card = request.json.get("id_card")
+    if not all([real_name, id_card]):
+        return jsonify(errno=RET.PARAMERR, errmsg="参数不足")
+
+    # 3.通过id查找到当前用户
+    if not user_id:
+        return jsonify(errno=RET.NODATA, errmsg="请登录")
+    user = None
+
+    try:
+        user = User.query.get(user_id)
+    except Exception as e:
+        current_app.logger.error(e)
+        return jsonify(errno=RET.DBERR, errmsg="查询错误")
+
+    # 4.更新用户的认证信息
+    user.id_card = id_card
+    user.real_name = real_name
+
+    # 5.保存到数据库
+    try:
+        db.session.commit()
+    except Exception as e:
+        db.session.rollback()
+        current_app.logger.error(e)
+        return jsonify(errno=RET.DBERR, errmsg="保存到数据库出错")
+
+    # 6.返回结果
+    return jsonify(errno=RET.OK, errmsg="OK")

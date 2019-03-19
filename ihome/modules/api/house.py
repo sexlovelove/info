@@ -49,7 +49,7 @@ def upload_house_image(house_id):
     """
     user_id = g.user_id
     if not user_id:
-        return jsonify(errno=RET.NODATA, errmsg="未查询到数据")
+        return jsonify(errno=RET.NODATA, errmsg="请登录")
 
     house_id = request.args.get(house_id)
     if not house_id:

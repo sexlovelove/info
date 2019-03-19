@@ -73,11 +73,27 @@ def login():
 # 获取登录状态
 @api_blu.route('/session')
 def check_login():
+
     """
     检测用户是否登录，如果登录，则返回用户的名和用户id
     :return:
     """
-    pass
+
+    name=session.get("name")
+    user_id=session.get("id")
+
+    if not all([name,user_id]):
+        return jsonify(errno=RET.SESSIONERR,errmsg="未登录")
+
+    data={
+        "name":name,
+        "user_id":user_id
+    }
+    return jsonify(errno=RET.OK,errmsg="OK",data=data)
+
+
+
+
 
 
 # 退出登录

@@ -19,10 +19,54 @@ def get_user_house_list():
     """
     获取用户房屋列表
     1. 获取当前登录用户id
+
     2. 查询数据
     :return:
     """
-   pass
+    user_id = session.get("id")
+    if not user_id:
+        return jsonify(errno=RET.SESSIONERR, errmsg="未登录")
+
+    param_dict = request.args
+    house_id = param_dict.get("id")
+    page = param_dict.get("page", 1)
+    per_page = param_dict.get("per_page", 10)
+
+    try:
+        house_id = int(house_id)
+        page = int(page)
+        per_page = int(per_page)
+
+    except Exception as e:
+        current_app.logger.error(e)
+        return jsonify(error=RET.PARAMERR, errmsg="参数格式有误")
+
+    house_list = []
+    current_page = 1
+    total_page = 1
+
+
+    try:
+        paginate = House.query.filter(Area).order_by(House.ih_area_info.id.asc()).paginate(page, per_page, False)
+
+        house_list = paginate.items
+        current_page = paginate.page
+        total_page = paginate.pages
+    except Exception as e:
+        current_app.logger.error(e)
+        return jsonify(error=RET.DBERR, errmsg="查询房屋列表数据异常")
+    houses_dict_list = []
+    for houses in house_list if house_list else []:
+        houses_dict_list.append(houses.to_basic_dict())
+
+    data = {
+        "house_list": houses_dict_list,
+        "current_page": current_page,
+        "total_page": total_page
+    }
+    return jsonify(errno=RET.OK, errmsg="查询房屋列表数据成功", data=data)
+
+
 
 
 # 获取地区信息

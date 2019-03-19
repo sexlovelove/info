@@ -6702,3 +6702,116 @@ INFO /home/python/.virtualenvs/flask_python24/lib/python3.6/site-packages/werkze
 INFO /home/python/.virtualenvs/flask_python24/lib/python3.6/site-packages/werkzeug/_internal.py:88 127.0.0.1 - - [18/Mar/2019 17:38:02] "GET /api/v1.0/imagecode?cur=a80825f3-2749-44e3-a47a-74a931907073&pre= HTTP/1.1" 500 -
 INFO /home/python/.virtualenvs/flask_python24/lib/python3.6/site-packages/werkzeug/_internal.py:88 127.0.0.1 - - [18/Mar/2019 17:38:04] "GET /api/v1.0/imagecode?cur=fe5aee2c-557b-4be8-84ab-e301a7878616&pre=a80825f3-2749-44e3-a47a-74a931907073 HTTP/1.1" 500 -
 >>>>>>> dev
+INFO /home/python/.virtualenvs/flask_python24/lib/python3.6/site-packages/werkzeug/_internal.py:88  * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+INFO /home/python/.virtualenvs/flask_python24/lib/python3.6/site-packages/werkzeug/_internal.py:88  * Restarting with stat
+WARNING /home/python/.virtualenvs/flask_python24/lib/python3.6/site-packages/werkzeug/_internal.py:88  * Debugger is active!
+INFO /home/python/.virtualenvs/flask_python24/lib/python3.6/site-packages/werkzeug/_internal.py:88  * Debugger PIN: 312-164-200
+INFO /home/python/.virtualenvs/flask_python24/lib/python3.6/site-packages/werkzeug/_internal.py:88 127.0.0.1 - - [19/Mar/2019 19:58:11] "GET /api/v1.0/session HTTP/1.1" 500 -
+INFO /home/python/.virtualenvs/flask_python24/lib/python3.6/site-packages/werkzeug/_internal.py:88 127.0.0.1 - - [19/Mar/2019 19:58:11] "GET /api/v1.0/houses/index HTTP/1.1" 200 -
+INFO /home/python/.virtualenvs/flask_python24/lib/python3.6/site-packages/werkzeug/_internal.py:88 127.0.0.1 - - [19/Mar/2019 19:58:11] "GET /api/v1.0/areas HTTP/1.1" 500 -
+INFO /home/python/.virtualenvs/flask_python24/lib/python3.6/site-packages/werkzeug/_internal.py:88 127.0.0.1 - - [19/Mar/2019 19:58:11] "GET /api/v1.0/session HTTP/1.1" 500 -
+INFO /home/python/.virtualenvs/flask_python24/lib/python3.6/site-packages/werkzeug/_internal.py:88 127.0.0.1 - - [19/Mar/2019 19:58:11] "GET /api/v1.0/houses/index HTTP/1.1" 200 -
+INFO /home/python/.virtualenvs/flask_python24/lib/python3.6/site-packages/werkzeug/_internal.py:88 127.0.0.1 - - [19/Mar/2019 19:58:11] "GET /api/v1.0/areas HTTP/1.1" 500 -
+INFO /home/python/.virtualenvs/flask_python24/lib/python3.6/site-packages/werkzeug/_internal.py:88 127.0.0.1 - - [19/Mar/2019 19:58:24] "POST /api/v1.0/session HTTP/1.1" 200 -
+INFO /home/python/.virtualenvs/flask_python24/lib/python3.6/site-packages/werkzeug/_internal.py:88 127.0.0.1 - - [19/Mar/2019 19:58:24] "GET /api/v1.0/session HTTP/1.1" 500 -
+INFO /home/python/.virtualenvs/flask_python24/lib/python3.6/site-packages/werkzeug/_internal.py:88 127.0.0.1 - - [19/Mar/2019 19:58:24] "GET /api/v1.0/houses/index HTTP/1.1" 200 -
+INFO /home/python/.virtualenvs/flask_python24/lib/python3.6/site-packages/werkzeug/_internal.py:88 127.0.0.1 - - [19/Mar/2019 19:58:24] "GET /api/v1.0/areas HTTP/1.1" 500 -
+INFO /home/python/.virtualenvs/flask_python24/lib/python3.6/site-packages/werkzeug/_internal.py:88 127.0.0.1 - - [19/Mar/2019 19:58:29] "GET /static/plugins/swiper/js/maps/swiper.jquery.min.js.map HTTP/1.1" 500 -
+INFO /home/python/.virtualenvs/flask_python24/lib/python3.6/site-packages/werkzeug/_internal.py:88 127.0.0.1 - - [19/Mar/2019 19:58:35] "GET /api/v1.0/session HTTP/1.1" 500 -
+INFO /home/python/.virtualenvs/flask_python24/lib/python3.6/site-packages/werkzeug/_internal.py:88 127.0.0.1 - - [19/Mar/2019 19:58:35] "GET /api/v1.0/session?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1" 200 -
+INFO /home/python/.virtualenvs/flask_python24/lib/python3.6/site-packages/werkzeug/_internal.py:88 127.0.0.1 - - [19/Mar/2019 19:58:35] "GET /api/v1.0/session?__debugger__=yes&cmd=resource&f=jquery.js HTTP/1.1" 200 -
+INFO /home/python/.virtualenvs/flask_python24/lib/python3.6/site-packages/werkzeug/_internal.py:88 127.0.0.1 - - [19/Mar/2019 19:58:35] "GET /api/v1.0/session?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1" 200 -
+INFO /home/python/.virtualenvs/flask_python24/lib/python3.6/site-packages/werkzeug/_internal.py:88 127.0.0.1 - - [19/Mar/2019 19:58:35] "GET /api/v1.0/session?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1" 200 -
+INFO /home/python/.virtualenvs/flask_python24/lib/python3.6/site-packages/werkzeug/_internal.py:88  * Detected change in '/home/python/Desktop/info/ihome/modules/api/passport.py', reloading
+INFO /home/python/.virtualenvs/flask_python24/lib/python3.6/site-packages/werkzeug/_internal.py:88  * Restarting with stat
+WARNING /home/python/.virtualenvs/flask_python24/lib/python3.6/site-packages/werkzeug/_internal.py:88  * Debugger is active!
+INFO /home/python/.virtualenvs/flask_python24/lib/python3.6/site-packages/werkzeug/_internal.py:88  * Debugger PIN: 312-164-200
+INFO /home/python/.virtualenvs/flask_python24/lib/python3.6/site-packages/werkzeug/_internal.py:88  * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+INFO /home/python/.virtualenvs/flask_python24/lib/python3.6/site-packages/werkzeug/_internal.py:88  * Restarting with stat
+WARNING /home/python/.virtualenvs/flask_python24/lib/python3.6/site-packages/werkzeug/_internal.py:88  * Debugger is active!
+INFO /home/python/.virtualenvs/flask_python24/lib/python3.6/site-packages/werkzeug/_internal.py:88  * Debugger PIN: 312-164-200
+INFO /home/python/.virtualenvs/flask_python24/lib/python3.6/site-packages/werkzeug/_internal.py:88 127.0.0.1 - - [19/Mar/2019 20:44:26] "GET /api/v1.0/session HTTP/1.1" 500 -
+INFO /home/python/.virtualenvs/flask_python24/lib/python3.6/site-packages/werkzeug/_internal.py:88 127.0.0.1 - - [19/Mar/2019 20:44:26] "GET /api/v1.0/houses/index HTTP/1.1" 200 -
+INFO /home/python/.virtualenvs/flask_python24/lib/python3.6/site-packages/werkzeug/_internal.py:88 127.0.0.1 - - [19/Mar/2019 20:44:26] "GET /api/v1.0/areas HTTP/1.1" 500 -
+INFO /home/python/.virtualenvs/flask_python24/lib/python3.6/site-packages/werkzeug/_internal.py:88 127.0.0.1 - - [19/Mar/2019 20:44:26] "GET /api/v1.0/session HTTP/1.1" 500 -
+INFO /home/python/.virtualenvs/flask_python24/lib/python3.6/site-packages/werkzeug/_internal.py:88 127.0.0.1 - - [19/Mar/2019 20:44:26] "GET /api/v1.0/houses/index HTTP/1.1" 200 -
+INFO /home/python/.virtualenvs/flask_python24/lib/python3.6/site-packages/werkzeug/_internal.py:88 127.0.0.1 - - [19/Mar/2019 20:44:26] "GET /api/v1.0/areas HTTP/1.1" 500 -
+INFO /home/python/.virtualenvs/flask_python24/lib/python3.6/site-packages/werkzeug/_internal.py:88 127.0.0.1 - - [19/Mar/2019 20:44:32] "GET /api/v1.0/imagecode?cur=489d9c31-e749-43ac-8392-3dca0351d511&pre= HTTP/1.1" 200 -
+INFO /home/python/.virtualenvs/flask_python24/lib/python3.6/site-packages/werkzeug/_internal.py:88 127.0.0.1 - - [19/Mar/2019 20:44:45] "POST /api/v1.0/smscode HTTP/1.1" 200 -
+INFO /home/python/.virtualenvs/flask_python24/lib/python3.6/site-packages/werkzeug/_internal.py:88 127.0.0.1 - - [19/Mar/2019 20:44:47] "GET /api/v1.0/imagecode?cur=4acd3c3c-84c5-4d22-8bf6-8a44ec674bcc&pre=489d9c31-e749-43ac-8392-3dca0351d511 HTTP/1.1" 200 -
+INFO /home/python/.virtualenvs/flask_python24/lib/python3.6/site-packages/werkzeug/_internal.py:88  * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+INFO /home/python/.virtualenvs/flask_python24/lib/python3.6/site-packages/werkzeug/_internal.py:88  * Restarting with stat
+WARNING /home/python/.virtualenvs/flask_python24/lib/python3.6/site-packages/werkzeug/_internal.py:88  * Debugger is active!
+INFO /home/python/.virtualenvs/flask_python24/lib/python3.6/site-packages/werkzeug/_internal.py:88  * Debugger PIN: 312-164-200
+INFO /home/python/.virtualenvs/flask_python24/lib/python3.6/site-packages/werkzeug/_internal.py:88 127.0.0.1 - - [19/Mar/2019 20:45:39] "GET /api/v1.0/imagecode?cur=4ab624b5-2219-4571-bb65-977ce1849647&pre=4acd3c3c-84c5-4d22-8bf6-8a44ec674bcc HTTP/1.1" 200 -
+INFO /home/python/.virtualenvs/flask_python24/lib/python3.6/site-packages/werkzeug/_internal.py:88 127.0.0.1 - - [19/Mar/2019 20:45:43] "GET /api/v1.0/imagecode?cur=fa43b674-92c3-4b76-923f-15f41727b4cb&pre=4ab624b5-2219-4571-bb65-977ce1849647 HTTP/1.1" 200 -
+INFO /home/python/.virtualenvs/flask_python24/lib/python3.6/site-packages/werkzeug/_internal.py:88 127.0.0.1 - - [19/Mar/2019 20:45:43] "GET /api/v1.0/imagecode?cur=9d64efb8-0020-4d75-abbe-6825336ad268&pre=fa43b674-92c3-4b76-923f-15f41727b4cb HTTP/1.1" 200 -
+INFO /home/python/.virtualenvs/flask_python24/lib/python3.6/site-packages/werkzeug/_internal.py:88 127.0.0.1 - - [19/Mar/2019 20:45:48] "POST /api/v1.0/smscode HTTP/1.1" 200 -
+INFO /home/python/.virtualenvs/flask_python24/lib/python3.6/site-packages/werkzeug/_internal.py:88 127.0.0.1 - - [19/Mar/2019 20:46:02] "POST /api/v1.0/user HTTP/1.1" 200 -
+INFO /home/python/.virtualenvs/flask_python24/lib/python3.6/site-packages/werkzeug/_internal.py:88 127.0.0.1 - - [19/Mar/2019 20:46:02] "GET /api/v1.0/session HTTP/1.1" 500 -
+INFO /home/python/.virtualenvs/flask_python24/lib/python3.6/site-packages/werkzeug/_internal.py:88 127.0.0.1 - - [19/Mar/2019 20:46:02] "GET /api/v1.0/houses/index HTTP/1.1" 200 -
+INFO /home/python/.virtualenvs/flask_python24/lib/python3.6/site-packages/werkzeug/_internal.py:88 127.0.0.1 - - [19/Mar/2019 20:46:02] "GET /api/v1.0/areas HTTP/1.1" 500 -
+INFO /home/python/.virtualenvs/flask_python24/lib/python3.6/site-packages/werkzeug/_internal.py:88 127.0.0.1 - - [19/Mar/2019 20:47:11] "POST /api/v1.0/session HTTP/1.1" 200 -
+INFO /home/python/.virtualenvs/flask_python24/lib/python3.6/site-packages/werkzeug/_internal.py:88 127.0.0.1 - - [19/Mar/2019 20:47:11] "GET /static/plugins/swiper/js/maps/swiper.jquery.min.js.map HTTP/1.1" 404 -
+INFO /home/python/.virtualenvs/flask_python24/lib/python3.6/site-packages/werkzeug/_internal.py:88 127.0.0.1 - - [19/Mar/2019 20:47:11] "GET /api/v1.0/session HTTP/1.1" 500 -
+INFO /home/python/.virtualenvs/flask_python24/lib/python3.6/site-packages/werkzeug/_internal.py:88 127.0.0.1 - - [19/Mar/2019 20:47:11] "GET /api/v1.0/houses/index HTTP/1.1" 200 -
+INFO /home/python/.virtualenvs/flask_python24/lib/python3.6/site-packages/werkzeug/_internal.py:88 127.0.0.1 - - [19/Mar/2019 20:47:11] "GET /api/v1.0/areas HTTP/1.1" 500 -
+INFO /home/python/.virtualenvs/flask_python24/lib/python3.6/site-packages/werkzeug/_internal.py:88 127.0.0.1 - - [19/Mar/2019 20:47:41] "POST /api/v1.0/session HTTP/1.1" 200 -
+INFO /home/python/.virtualenvs/flask_python24/lib/python3.6/site-packages/werkzeug/_internal.py:88 127.0.0.1 - - [19/Mar/2019 20:47:41] "GET /api/v1.0/session HTTP/1.1" 500 -
+INFO /home/python/.virtualenvs/flask_python24/lib/python3.6/site-packages/werkzeug/_internal.py:88 127.0.0.1 - - [19/Mar/2019 20:47:41] "GET /api/v1.0/houses/index HTTP/1.1" 200 -
+INFO /home/python/.virtualenvs/flask_python24/lib/python3.6/site-packages/werkzeug/_internal.py:88 127.0.0.1 - - [19/Mar/2019 20:47:41] "GET /api/v1.0/areas HTTP/1.1" 500 -
+INFO /home/python/.virtualenvs/flask_python24/lib/python3.6/site-packages/werkzeug/_internal.py:88 127.0.0.1 - - [19/Mar/2019 20:47:41] "GET /static/plugins/swiper/js/maps/swiper.jquery.min.js.map HTTP/1.1" 404 -
+INFO /home/python/.virtualenvs/flask_python24/lib/python3.6/site-packages/werkzeug/_internal.py:88  * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+INFO /home/python/.virtualenvs/flask_python24/lib/python3.6/site-packages/werkzeug/_internal.py:88  * Restarting with stat
+WARNING /home/python/.virtualenvs/flask_python24/lib/python3.6/site-packages/werkzeug/_internal.py:88  * Debugger is active!
+INFO /home/python/.virtualenvs/flask_python24/lib/python3.6/site-packages/werkzeug/_internal.py:88  * Debugger PIN: 312-164-200
+INFO /home/python/.virtualenvs/flask_python24/lib/python3.6/site-packages/werkzeug/_internal.py:88 127.0.0.1 - - [19/Mar/2019 20:56:53] "GET /api/v1.0/session HTTP/1.1" 200 -
+INFO /home/python/.virtualenvs/flask_python24/lib/python3.6/site-packages/werkzeug/_internal.py:88 127.0.0.1 - - [19/Mar/2019 20:56:53] "GET /api/v1.0/houses/index HTTP/1.1" 200 -
+INFO /home/python/.virtualenvs/flask_python24/lib/python3.6/site-packages/werkzeug/_internal.py:88 127.0.0.1 - - [19/Mar/2019 20:56:53] "GET /api/v1.0/areas HTTP/1.1" 500 -
+INFO /home/python/.virtualenvs/flask_python24/lib/python3.6/site-packages/werkzeug/_internal.py:88 127.0.0.1 - - [19/Mar/2019 20:56:56] "GET /static/plugins/swiper/js/maps/swiper.jquery.min.js.map HTTP/1.1" 404 -
+INFO /home/python/.virtualenvs/flask_python24/lib/python3.6/site-packages/werkzeug/_internal.py:88 127.0.0.1 - - [19/Mar/2019 20:57:17] "POST /api/v1.0/session HTTP/1.1" 200 -
+INFO /home/python/.virtualenvs/flask_python24/lib/python3.6/site-packages/werkzeug/_internal.py:88 127.0.0.1 - - [19/Mar/2019 20:57:17] "GET /api/v1.0/session HTTP/1.1" 200 -
+INFO /home/python/.virtualenvs/flask_python24/lib/python3.6/site-packages/werkzeug/_internal.py:88 127.0.0.1 - - [19/Mar/2019 20:57:17] "GET /api/v1.0/houses/index HTTP/1.1" 200 -
+INFO /home/python/.virtualenvs/flask_python24/lib/python3.6/site-packages/werkzeug/_internal.py:88 127.0.0.1 - - [19/Mar/2019 20:57:17] "GET /api/v1.0/areas HTTP/1.1" 500 -
+INFO /home/python/.virtualenvs/flask_python24/lib/python3.6/site-packages/werkzeug/_internal.py:88 127.0.0.1 - - [19/Mar/2019 20:57:17] "GET /static/plugins/swiper/js/maps/swiper.jquery.min.js.map HTTP/1.1" 404 -
+INFO /home/python/.virtualenvs/flask_python24/lib/python3.6/site-packages/werkzeug/_internal.py:88  * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+INFO /home/python/.virtualenvs/flask_python24/lib/python3.6/site-packages/werkzeug/_internal.py:88  * Restarting with stat
+WARNING /home/python/.virtualenvs/flask_python24/lib/python3.6/site-packages/werkzeug/_internal.py:88  * Debugger is active!
+INFO /home/python/.virtualenvs/flask_python24/lib/python3.6/site-packages/werkzeug/_internal.py:88  * Debugger PIN: 312-164-200
+INFO /home/python/.virtualenvs/flask_python24/lib/python3.6/site-packages/werkzeug/_internal.py:88 127.0.0.1 - - [19/Mar/2019 21:03:51] "GET /api/v1.0/session HTTP/1.1" 200 -
+INFO /home/python/.virtualenvs/flask_python24/lib/python3.6/site-packages/werkzeug/_internal.py:88 127.0.0.1 - - [19/Mar/2019 21:03:51] "GET /api/v1.0/houses/index HTTP/1.1" 200 -
+INFO /home/python/.virtualenvs/flask_python24/lib/python3.6/site-packages/werkzeug/_internal.py:88 127.0.0.1 - - [19/Mar/2019 21:03:51] "GET /api/v1.0/areas HTTP/1.1" 500 -
+INFO /home/python/.virtualenvs/flask_python24/lib/python3.6/site-packages/werkzeug/_internal.py:88 127.0.0.1 - - [19/Mar/2019 21:03:51] "GET /api/v1.0/session HTTP/1.1" 200 -
+INFO /home/python/.virtualenvs/flask_python24/lib/python3.6/site-packages/werkzeug/_internal.py:88 127.0.0.1 - - [19/Mar/2019 21:03:51] "GET /api/v1.0/houses/index HTTP/1.1" 200 -
+INFO /home/python/.virtualenvs/flask_python24/lib/python3.6/site-packages/werkzeug/_internal.py:88 127.0.0.1 - - [19/Mar/2019 21:03:51] "GET /api/v1.0/areas HTTP/1.1" 500 -
+INFO /home/python/.virtualenvs/flask_python24/lib/python3.6/site-packages/werkzeug/_internal.py:88 127.0.0.1 - - [19/Mar/2019 21:04:11] "GET /my.html HTTP/1.1" 200 -
+INFO /home/python/.virtualenvs/flask_python24/lib/python3.6/site-packages/werkzeug/_internal.py:88 127.0.0.1 - - [19/Mar/2019 21:04:11] "GET /static/css/ihome/my.css HTTP/1.1" 200 -
+INFO /home/python/.virtualenvs/flask_python24/lib/python3.6/site-packages/werkzeug/_internal.py:88 127.0.0.1 - - [19/Mar/2019 21:04:11] "GET /static/js/ihome/my.js HTTP/1.1" 200 -
+INFO /home/python/.virtualenvs/flask_python24/lib/python3.6/site-packages/werkzeug/_internal.py:88 127.0.0.1 - - [19/Mar/2019 21:04:11] "GET /api/v1.0/user HTTP/1.1" 200 -
+INFO /home/python/.virtualenvs/flask_python24/lib/python3.6/site-packages/werkzeug/_internal.py:88 127.0.0.1 - - [19/Mar/2019 21:04:16] "GET /api/v1.0/session HTTP/1.1" 200 -
+INFO /home/python/.virtualenvs/flask_python24/lib/python3.6/site-packages/werkzeug/_internal.py:88 127.0.0.1 - - [19/Mar/2019 21:04:16] "GET /api/v1.0/houses/index HTTP/1.1" 200 -
+INFO /home/python/.virtualenvs/flask_python24/lib/python3.6/site-packages/werkzeug/_internal.py:88 127.0.0.1 - - [19/Mar/2019 21:04:16] "GET /api/v1.0/areas HTTP/1.1" 500 -
+INFO /home/python/.virtualenvs/flask_python24/lib/python3.6/site-packages/werkzeug/_internal.py:88  * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+INFO /home/python/.virtualenvs/flask_python24/lib/python3.6/site-packages/werkzeug/_internal.py:88  * Restarting with stat
+WARNING /home/python/.virtualenvs/flask_python24/lib/python3.6/site-packages/werkzeug/_internal.py:88  * Debugger is active!
+INFO /home/python/.virtualenvs/flask_python24/lib/python3.6/site-packages/werkzeug/_internal.py:88  * Debugger PIN: 312-164-200
+INFO /home/python/.virtualenvs/flask_python24/lib/python3.6/site-packages/werkzeug/_internal.py:88 127.0.0.1 - - [19/Mar/2019 21:05:54] "GET /api/v1.0/session HTTP/1.1" 200 -
+INFO /home/python/.virtualenvs/flask_python24/lib/python3.6/site-packages/werkzeug/_internal.py:88 127.0.0.1 - - [19/Mar/2019 21:05:54] "GET /api/v1.0/houses/index HTTP/1.1" 200 -
+INFO /home/python/.virtualenvs/flask_python24/lib/python3.6/site-packages/werkzeug/_internal.py:88 127.0.0.1 - - [19/Mar/2019 21:05:54] "GET /api/v1.0/areas HTTP/1.1" 500 -
+INFO /home/python/.virtualenvs/flask_python24/lib/python3.6/site-packages/werkzeug/_internal.py:88 127.0.0.1 - - [19/Mar/2019 21:05:54] "GET /api/v1.0/session HTTP/1.1" 200 -
+INFO /home/python/.virtualenvs/flask_python24/lib/python3.6/site-packages/werkzeug/_internal.py:88 127.0.0.1 - - [19/Mar/2019 21:05:54] "GET /api/v1.0/houses/index HTTP/1.1" 200 -
+INFO /home/python/.virtualenvs/flask_python24/lib/python3.6/site-packages/werkzeug/_internal.py:88 127.0.0.1 - - [19/Mar/2019 21:05:54] "GET /api/v1.0/areas HTTP/1.1" 500 -
+INFO /home/python/.virtualenvs/flask_python24/lib/python3.6/site-packages/werkzeug/_internal.py:88 127.0.0.1 - - [19/Mar/2019 21:05:55] "GET /api/v1.0/user HTTP/1.1" 200 -
+INFO /home/python/.virtualenvs/flask_python24/lib/python3.6/site-packages/werkzeug/_internal.py:88 127.0.0.1 - - [19/Mar/2019 21:05:58] "DELETE /api/v1.0/session HTTP/1.1" 200 -
+INFO /home/python/.virtualenvs/flask_python24/lib/python3.6/site-packages/werkzeug/_internal.py:88 127.0.0.1 - - [19/Mar/2019 21:05:58] "GET /api/v1.0/session HTTP/1.1" 200 -
+INFO /home/python/.virtualenvs/flask_python24/lib/python3.6/site-packages/werkzeug/_internal.py:88 127.0.0.1 - - [19/Mar/2019 21:05:58] "GET /api/v1.0/houses/index HTTP/1.1" 200 -
+INFO /home/python/.virtualenvs/flask_python24/lib/python3.6/site-packages/werkzeug/_internal.py:88 127.0.0.1 - - [19/Mar/2019 21:05:58] "GET /api/v1.0/areas HTTP/1.1" 500 -
+INFO /home/python/.virtualenvs/flask_python24/lib/python3.6/site-packages/werkzeug/_internal.py:88 127.0.0.1 - - [19/Mar/2019 21:06:13] "POST /api/v1.0/session HTTP/1.1" 200 -
+INFO /home/python/.virtualenvs/flask_python24/lib/python3.6/site-packages/werkzeug/_internal.py:88 127.0.0.1 - - [19/Mar/2019 21:06:13] "GET /api/v1.0/session HTTP/1.1" 200 -
+INFO /home/python/.virtualenvs/flask_python24/lib/python3.6/site-packages/werkzeug/_internal.py:88 127.0.0.1 - - [19/Mar/2019 21:06:13] "GET /api/v1.0/houses/index HTTP/1.1" 200 -
+INFO /home/python/.virtualenvs/flask_python24/lib/python3.6/site-packages/werkzeug/_internal.py:88 127.0.0.1 - - [19/Mar/2019 21:06:13] "GET /api/v1.0/areas HTTP/1.1" 500 -
+INFO /home/python/.virtualenvs/flask_python24/lib/python3.6/site-packages/werkzeug/_internal.py:88 127.0.0.1 - - [19/Mar/2019 21:06:14] "GET /api/v1.0/user HTTP/1.1" 200 -
+INFO /home/python/.virtualenvs/flask_python24/lib/python3.6/site-packages/werkzeug/_internal.py:88 127.0.0.1 - - [19/Mar/2019 21:06:16] "DELETE /api/v1.0/session HTTP/1.1" 200 -
+INFO /home/python/.virtualenvs/flask_python24/lib/python3.6/site-packages/werkzeug/_internal.py:88 127.0.0.1 - - [19/Mar/2019 21:06:16] "GET /api/v1.0/session HTTP/1.1" 200 -
+INFO /home/python/.virtualenvs/flask_python24/lib/python3.6/site-packages/werkzeug/_internal.py:88 127.0.0.1 - - [19/Mar/2019 21:06:16] "GET /api/v1.0/houses/index HTTP/1.1" 200 -
+INFO /home/python/.virtualenvs/flask_python24/lib/python3.6/site-packages/werkzeug/_internal.py:88 127.0.0.1 - - [19/Mar/2019 21:06:16] "GET /api/v1.0/areas HTTP/1.1" 500 -

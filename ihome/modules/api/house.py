@@ -35,6 +35,7 @@ def get_areas():
     """
     pass
 
+
 # 上传房屋图片
 @api_blu.route("/houses/<int:house_id>/images", methods=['POST'])
 @login_required
@@ -96,7 +97,13 @@ def house_index():
     获取首页房屋列表
     :return:
     """
-    pass
+    houses = House.query.limit(constants.HOME_PAGE_MAX_HOUSES).all()
+
+    house_list = []
+    for house in houses if houses else None:
+        house_list.append(house.to_basic_dict())
+
+    return jsonify(data=house_list)
 
 
 # 搜索房屋/获取房屋列表

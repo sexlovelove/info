@@ -47,7 +47,41 @@ def set_user_name():
     3. 返回结果
     :return:
     """
-    pass
+    user_id = g.user_id
+    # 判断用户是否已经登录
+    if not user_id:
+        return jsonify(errno=RET.SESSIONERR, errmsg="用户尚未登录")
+    # 根据用户id获取用户对象
+    try:
+        user = User.query.get(user_id)
+    except Exception as e:
+        current_app.logger.error(e)
+        return jsonify(errno=RET.DBERR, errmsg="数据库查询错误")
+    # 判断user是否存在
+    if not user:
+        return jsonify(errno=RET.SESSIONERR, errmsg="用户不存在")
+    # 获取参数
+    new_name = request.json.get("name")
+    if not new_name:
+        return jsonify(errno=RET.PARAMERR, errmsg="参数不足")
+    # 查询新用户名是否已经被占用
+    other_user = None
+    try:
+        other_user = User.query.filter(User.name == new_name).first()
+    except Exception as e:
+        current_app.logger.error(e)
+        return jsonify(errno=RET.DBERR, errmsg="数据库查询错误")
+    if other_user:
+        return jsonify(errno=RET.DATAEXIST, errmsg="用户名已被占用")
+    # 将新用户名保存到数据库
+    user.name = new_name
+    try:
+        db.session.commit()
+    except Exception as e:
+        current_app.logger.error(e)
+        db.session.rollback()
+        return jsonify(errno=RET.DBERR, errmsg="数据库保存错误")
+    return jsonify(errno=RET.OK, errmsg="修改成功")
 
 
 # 上传个人头像

@@ -22,6 +22,7 @@ def get_user_house_list():
 
     2. 查询数据
     :return:
+<<<<<<< HEAD
     # """
     # user_id = session.get("id")
     # if not user_id:
@@ -67,6 +68,10 @@ def get_user_house_list():
     return jsonify(errno=RET.OK, errmsg="查询房屋列表数据成功", data=data)
 
 
+=======
+    """
+    pass
+>>>>>>> dev
 
 
 # 获取地区信息

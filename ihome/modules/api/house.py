@@ -22,10 +22,10 @@ def get_user_house_list():
 
     2. 查询数据
     :return:
-    """
-    user_id = session.get("id")
-    if not user_id:
-        return jsonify(errno=RET.SESSIONERR, errmsg="未登录")
+    # """
+    # user_id = session.get("id")
+    # if not user_id:
+    #     return jsonify(errno=RET.SESSIONERR, errmsg="未登录")
 
     param_dict = request.args
     house_id = param_dict.get("id")

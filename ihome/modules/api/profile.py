@@ -3,6 +3,7 @@ from flask import request, current_app, jsonify, session, g
 from ihome import db
 from ihome.models import User
 from ihome.modules.api import api_blu
+from ihome.utils import constants
 from ihome.utils.common import login_required
 from ihome.utils.constants import QINIU_DOMIN_PREFIX
 from ihome.utils.image_storage import storage_image
@@ -48,6 +49,7 @@ def set_user_name():
     """
     pass
 
+
 # 上传个人头像
 @api_blu.route('/user/avatar', methods=['POST'])
 @login_required
@@ -60,7 +62,38 @@ def set_user_avatar():
     4. 返回上传的结果<avatar_url>
     :return:
     """
-    pass
+    # 0. 判断用户是否登录
+    user_id = g.user_id
+    user = User.query.get(user_id)
+    if not user:
+        return jsonify(errno=RET.SESSIONERR, errmsg="用户未登录")
+
+    # 1. 获取到上传的文件
+    avatar = request.files.get("avatar")
+    if not avatar:
+        return jsonify(errno=RET.PARAMERR, errmsg="参数不足")
+
+    # 2. 再将文件上传到七牛云
+    try:
+        avatar_image = storage_image(avatar.read())
+    except Exception as e:
+        current_app.logger.error(e)
+        return jsonify(errno=RET.THIRDERR, errmsg="第三方系统错误")
+    if not avatar_image:
+        return jsonify(errno=RET.NODATA, errmsg="无数据")
+
+    # 3. 将头像信息更新到当前用户的模型中
+    user.avatar_url = avatar_image
+    try:
+        db.session.commit()
+    except Exception as e:
+        current_app.logger.error(e)
+        db.session.rollback()
+        return jsonify(errno=RET.DBERR, errmsg="数据库提交错误")
+
+    # 4. 返回上传的结果<avatar_url>
+    avatar_url = constants.QINIU_DOMIN_PREFIX + avatar_image
+    return jsonify(errno=RET.OK, errmsg="成功", avatar_url=avatar_url)
 
 
 # 获取用户实名信息

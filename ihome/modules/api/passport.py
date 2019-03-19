@@ -23,7 +23,6 @@ def get_image_code():
     pass
 
 
-
 # 获取短信验证码
 @api_blu.route('/smscode', methods=["POST"])
 def send_sms():
@@ -38,7 +37,6 @@ def send_sms():
     :return:
     """
     pass
-
 
 
 # 用户注册
@@ -65,9 +63,36 @@ def login():
     3. 校验密码
     4. 保存用户登录状态
     5. 返回结果
-    :return:
     """
-    pass
+    # 1. 获取参数和判断是否有值
+    mobile = request.json.get("mobile")
+    password = request.json.get("password")
+    if not all([mobile, password]):
+        current_app.logger.error("参数不足")
+        return jsonify(errno=RET.PARAMERR, errmsg="参数不足")
+    if not re.match(r"1[34578]\d{9}",mobile):
+        return jsonify(errno=RET.PARAMERR, errmsg="手机格式错误")
+
+    # 2. 从数据库查询出指定的用户
+    try:
+        user = User.query.filter(User.mobile == mobile).first()
+    except Exception as e:
+        current_app.logger.error(e)
+        return jsonify(errno=RET.DBERR, errmsg="数据库查询错误")
+
+    # 3. 校验密码
+    if not user:
+        return jsonify(errno=RET.USERERR, errmsg="用户不存在或未激活")
+    if not user.check_passowrd(password):
+        return jsonify(errno=RET.LOGINERR, errmsg="用户登录失败")
+
+    # 4. 保存用户登录状态
+    session["user_id"] = user.id
+    session["name"] = user.name
+    session["mobile"] = user.mobile
+
+    # 5. 返回结果
+    return jsonify(errno=RET.OK, errmsg="成功")
 
 
 # 获取登录状态

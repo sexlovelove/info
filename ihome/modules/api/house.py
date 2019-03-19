@@ -24,9 +24,8 @@ def get_user_house_list():
     :return:
 <<<<<<< HEAD
     # """
-    # user_id = session.get("id")
-    # if not user_id:
-    #     return jsonify(errno=RET.SESSIONERR, errmsg="未登录")
+    user_id = g.user_id
+
 
     param_dict = request.args
     house_id = param_dict.get("id")
@@ -68,10 +67,8 @@ def get_user_house_list():
     return jsonify(errno=RET.OK, errmsg="查询房屋列表数据成功", data=data)
 
 
-=======
-    """
-    pass
->>>>>>> dev
+
+
 
 
 # 获取地区信息
@@ -83,6 +80,7 @@ def get_areas():
     :return:
     """
     pass
+
 
 # 上传房屋图片
 @api_blu.route("/houses/<int:house_id>/images", methods=['POST'])
@@ -124,7 +122,8 @@ def save_new_house():
     }
     :return:
     """
-    pass
+    user_id = g.user_id
+
 
 
 # 房屋详情

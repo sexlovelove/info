@@ -2,10 +2,18 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="d4d9f717-f5cf-48d7-ad15-905fa7a254a7" name="Default Changelist" comment="添加nihao">
-      <change beforePath="$PROJECT_DIR$/.idea/info.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/info.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ihome/modules/api/house.py" beforeDir="false" afterPath="$PROJECT_DIR$/ihome/modules/api/house.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/logs/log" beforeDir="false" afterPath="$PROJECT_DIR$/logs/log" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/dataSources.local.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/dataSources.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/dataSources/aa3d37dc-d411-483a-ab75-e3b0a4c59f0b.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/dataSources/aa3d37dc-d411-483a-ab75-e3b0a4c59f0b/storage_v2/_src_/schema/ihome.yJj4BQ.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/dataSources/aa3d37dc-d411-483a-ab75-e3b0a4c59f0b/storage_v2/_src_/schema/information.LHVWdQ.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/info.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/other.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -59,8 +67,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/ihome/modules/api/house.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-1515">
-              <caret line="21" selection-start-line="21" selection-end-line="21" />
+            <state relative-caret-position="121">
+              <caret line="68" lean-forward="true" selection-start-line="68" selection-end-line="68" />
               <folding>
                 <element signature="e#0#15#0" expanded="true" />
               </folding>
@@ -122,44 +130,7 @@
             <path>
               <item name="info" type="b2602c69:ProjectViewProjectNode" />
               <item name="info" type="462c0819:PsiDirectoryNode" />
-              <item name="ihome" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="info" type="b2602c69:ProjectViewProjectNode" />
-              <item name="info" type="462c0819:PsiDirectoryNode" />
-              <item name="ihome" type="462c0819:PsiDirectoryNode" />
-              <item name="libs" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="info" type="b2602c69:ProjectViewProjectNode" />
-              <item name="info" type="462c0819:PsiDirectoryNode" />
-              <item name="ihome" type="462c0819:PsiDirectoryNode" />
-              <item name="libs" type="462c0819:PsiDirectoryNode" />
-              <item name="yuntongxun" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="info" type="b2602c69:ProjectViewProjectNode" />
-              <item name="info" type="462c0819:PsiDirectoryNode" />
-              <item name="ihome" type="462c0819:PsiDirectoryNode" />
-              <item name="modules" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="info" type="b2602c69:ProjectViewProjectNode" />
-              <item name="info" type="462c0819:PsiDirectoryNode" />
-              <item name="ihome" type="462c0819:PsiDirectoryNode" />
-              <item name="modules" type="462c0819:PsiDirectoryNode" />
-              <item name="api" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="info" type="b2602c69:ProjectViewProjectNode" />
-              <item name="info" type="462c0819:PsiDirectoryNode" />
               <item name="migrations" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="info" type="b2602c69:ProjectViewProjectNode" />
-              <item name="info" type="462c0819:PsiDirectoryNode" />
-              <item name="migrations" type="462c0819:PsiDirectoryNode" />
-              <item name="versions" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -276,7 +247,7 @@
       <updated>1552810165518</updated>
       <workItem from="1552810167052" duration="36000" />
       <workItem from="1552810204792" duration="12398000" />
-      <workItem from="1552890439441" duration="28261000" />
+      <workItem from="1552890439441" duration="32338000" />
     </task>
     <task id="LOCAL-00001" summary="添加nihao">
       <created>1552810453313</created>
@@ -296,18 +267,18 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="40695000" />
+    <option name="totallyTimeSpent" value="44772000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="67" y="25" width="1308" height="853" extended-state="6" />
+    <frame x="67" y="25" width="1851" height="863" extended-state="6" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.18412699" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.12867443" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Messages" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.11618257" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.11618257" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.3533424" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -316,7 +287,7 @@
       <window_info anchor="bottom" id="Version Control" order="8" weight="0.7639836" />
       <window_info anchor="bottom" id="Database Changes" order="9" show_stripe_button="false" />
       <window_info anchor="bottom" id="Event Log" order="10" side_tool="true" />
-      <window_info anchor="bottom" id="Terminal" order="11" weight="0.44474763" />
+      <window_info active="true" anchor="bottom" id="Terminal" order="11" visible="true" weight="0.5088677" />
       <window_info anchor="bottom" id="Python Console" order="12" weight="0.3287858" />
       <window_info anchor="bottom" id="Database Console" order="13" weight="0.48392284" />
       <window_info anchor="right" x="0" y="0" width="412" height="663" id="Documentation" side_tool="true" weight="0.3294509" />
@@ -619,8 +590,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/ihome/modules/api/house.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-1515">
-          <caret line="21" selection-start-line="21" selection-end-line="21" />
+        <state relative-caret-position="121">
+          <caret line="68" lean-forward="true" selection-start-line="68" selection-end-line="68" />
           <folding>
             <element signature="e#0#15#0" expanded="true" />
           </folding>

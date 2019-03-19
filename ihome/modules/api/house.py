@@ -35,6 +35,7 @@ def get_areas():
     """
     pass
 
+
 # 上传房屋图片
 @api_blu.route("/houses/<int:house_id>/images", methods=['POST'])
 @login_required
@@ -46,7 +47,37 @@ def upload_house_image(house_id):
     4. 进行返回
     :return:
     """
-    pass
+    user_id = g.user_id
+    if not user_id:
+        return jsonify(errno=RET.NODATA, errmsg="未查询到数据")
+
+    house_id = request.args.get(house_id)
+    if not house_id:
+        return jsonify(errno=RET.NODATA, errmsg="未查询到数据")
+    house = House.query.get(house_id)
+
+    #取到上传的图片
+    index_image = request.files.get("index_image")
+    if index_image:
+        try:
+            index_image = index_image.read()
+        except Exception as e:
+            current_app.logger.error(e)
+            return jsonify(errno=RET.PARAMERR, errmsg="参数有误")
+
+        # 2. 将标题图片上传到七牛
+        try:
+            key = storage_image(index_image)
+        except Exception as e:
+            current_app.logger.error(e)
+            return jsonify(errno=RET.THIRDERR, errmsg="上传图片错误")
+
+        #3.将上传返回的图片地址存储
+        house.index_image_url = constants.QINIU_DOMIN_PREFIX + key
+
+        #4进行返回
+        data = {"url": house.index_image_url}
+        return jsonify(data=data, errno=RET.OK, errmsg="OK")
 
 
 # 发布房源

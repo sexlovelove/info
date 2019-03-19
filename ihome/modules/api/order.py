@@ -34,6 +34,7 @@ def add_order():
         return jsonify(errno=RET.PARAMERR, errmsg="参数不足")
     if not user_id:
         return jsonify(errno=RET.SESSIONERR, errmsg="用户未登录")
+
     # 字符串格式的时间转换为日期格式的时间
     try:
         start_date = datetime.datetime.strptime(start_date, "%Y-%m-%d")
@@ -72,7 +73,7 @@ def add_order():
     # 对所有订单进行遍历,如果中途出现有时间冲突的,其实就可以退出了,如果一直没有碰到有时间冲突的,那么就要遍历到最后一个,确保所有的订单都没有时间冲突
     for house_order in house_orders:
         # 如果发生时间冲突(别人的开始时间或者结束时间在我的预定开始时间内,都是不符合的)
-        if (start_date <= house_order.begin_date < end_date) or (start_date < house_order.end_date < end_date):
+        if (start_date <= house_order.begin_date < end_date) or (start_date < house_order.end_date < end_date) or (house_order.begin_date <= start_date and house_order.end_date > end_date):
             i += 1
             break
     if i > 0:

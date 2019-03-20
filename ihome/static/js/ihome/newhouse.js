@@ -11,12 +11,12 @@ $(document).ready(function(){
     $.get("/api/v1.0/areas", function (resp) {
         if (resp.errno == "0") {
             // 将数据添加到select的标签中
-            // for(var i=0; i<resp.data.length; i++) {
-            //     // <option value="1">东城区</option>
-            //     var areaId = resp.data[i].aid
-            //     var areaName = resp.data[i].aname
-            //     $("#area-id").append('<option value="' + areaId + '">' + areaName + '</option>')
-            // }
+            for(var i=0; i<resp.data.length; i++) {
+                // <option value="1">东城区</option>
+                var areaId = resp.data[i].aid
+                var areaName = resp.data[i].aname
+                $("#area-id").append('<option value="' + areaId + '">' + areaName + '</option>')
+            }
 
             var html = template("areas-tmpl", {"areas": resp.data})
             $("#area-id").html(html)

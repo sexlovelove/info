@@ -7033,3 +7033,439 @@ INFO /home/python/.virtualenvs/flask_python24/lib/python3.6/site-packages/werkze
 INFO /home/python/.virtualenvs/flask_python24/lib/python3.6/site-packages/werkzeug/_internal.py:88 127.0.0.1 - - [18/Mar/2019 17:38:04] "GET /api/v1.0/imagecode?cur=fe5aee2c-557b-4be8-84ab-e301a7878616&pre=a80825f3-2749-44e3-a47a-74a931907073 HTTP/1.1" 500 -
 >>>>>>> dev
 >>>>>>> dev
+INFO /home/python/.virtualenvs/HMHome/lib/python3.6/site-packages/werkzeug/_internal.py:88  * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+INFO /home/python/.virtualenvs/HMHome/lib/python3.6/site-packages/werkzeug/_internal.py:88  * Restarting with stat
+WARNING /home/python/.virtualenvs/HMHome/lib/python3.6/site-packages/werkzeug/_internal.py:88  * Debugger is active!
+INFO /home/python/.virtualenvs/HMHome/lib/python3.6/site-packages/werkzeug/_internal.py:88  * Debugger PIN: 378-849-475
+INFO /home/python/.virtualenvs/HMHome/lib/python3.6/site-packages/werkzeug/_internal.py:88  * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+INFO /home/python/.virtualenvs/HMHome/lib/python3.6/site-packages/werkzeug/_internal.py:88  * Restarting with stat
+INFO /home/python/.virtualenvs/HMHome/lib/python3.6/site-packages/werkzeug/_internal.py:88  * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+INFO /home/python/.virtualenvs/HMHome/lib/python3.6/site-packages/werkzeug/_internal.py:88  * Restarting with stat
+WARNING /home/python/.virtualenvs/HMHome/lib/python3.6/site-packages/werkzeug/_internal.py:88  * Debugger is active!
+INFO /home/python/.virtualenvs/HMHome/lib/python3.6/site-packages/werkzeug/_internal.py:88  * Debugger PIN: 378-849-475
+INFO /home/python/.virtualenvs/HMHome/lib/python3.6/site-packages/werkzeug/_internal.py:88 127.0.0.1 - - [19/Mar/2019 19:24:08] "GET /api/v1.0/session HTTP/1.1" 200 -
+INFO /home/python/.virtualenvs/HMHome/lib/python3.6/site-packages/werkzeug/_internal.py:88 127.0.0.1 - - [19/Mar/2019 19:24:08] "GET /api/v1.0/houses/index HTTP/1.1" 500 -
+INFO /home/python/.virtualenvs/HMHome/lib/python3.6/site-packages/werkzeug/_internal.py:88 127.0.0.1 - - [19/Mar/2019 19:24:08] "GET /api/v1.0/areas HTTP/1.1" 500 -
+INFO /home/python/.virtualenvs/HMHome/lib/python3.6/site-packages/werkzeug/_internal.py:88 127.0.0.1 - - [19/Mar/2019 19:24:16] "GET /user/houses HTTP/1.1" 404 -
+INFO /home/python/.virtualenvs/HMHome/lib/python3.6/site-packages/werkzeug/_internal.py:88 127.0.0.1 - - [19/Mar/2019 19:25:18] "GET /api/v1.0/user/houses HTTP/1.1" 200 -
+INFO /home/python/.virtualenvs/HMHome/lib/python3.6/site-packages/werkzeug/_internal.py:88  * Detected change in '/home/python/Desktop/info/ihome/modules/api/house.py', reloading
+INFO /home/python/.virtualenvs/HMHome/lib/python3.6/site-packages/werkzeug/_internal.py:88  * Restarting with stat
+WARNING /home/python/.virtualenvs/HMHome/lib/python3.6/site-packages/werkzeug/_internal.py:88  * Debugger is active!
+INFO /home/python/.virtualenvs/HMHome/lib/python3.6/site-packages/werkzeug/_internal.py:88  * Debugger PIN: 378-849-475
+INFO /home/python/.virtualenvs/HMHome/lib/python3.6/site-packages/werkzeug/_internal.py:88 127.0.0.1 - - [19/Mar/2019 19:27:14] "GET /api/v1.0/user/houses HTTP/1.1" 200 -
+INFO /home/python/.virtualenvs/HMHome/lib/python3.6/site-packages/werkzeug/_internal.py:88 127.0.0.1 - - [19/Mar/2019 19:27:14] "GET /favicon.ico HTTP/1.1" 200 -
+INFO /home/python/.virtualenvs/HMHome/lib/python3.6/site-packages/werkzeug/_internal.py:88 127.0.0.1 - - [19/Mar/2019 19:27:15] "GET /api/v1.0/user/houses HTTP/1.1" 200 -
+INFO /home/python/.virtualenvs/HMHome/lib/python3.6/site-packages/werkzeug/_internal.py:88 127.0.0.1 - - [19/Mar/2019 19:27:15] "GET /favicon.ico HTTP/1.1" 200 -
+INFO /home/python/.virtualenvs/HMHome/lib/python3.6/site-packages/werkzeug/_internal.py:88 127.0.0.1 - - [19/Mar/2019 19:27:15] "GET /api/v1.0/user/houses HTTP/1.1" 200 -
+INFO /home/python/.virtualenvs/HMHome/lib/python3.6/site-packages/werkzeug/_internal.py:88 127.0.0.1 - - [19/Mar/2019 19:27:15] "GET /favicon.ico HTTP/1.1" 200 -
+INFO /home/python/.virtualenvs/HMHome/lib/python3.6/site-packages/werkzeug/_internal.py:88 127.0.0.1 - - [19/Mar/2019 19:27:15] "GET /api/v1.0/user/houses HTTP/1.1" 200 -
+INFO /home/python/.virtualenvs/HMHome/lib/python3.6/site-packages/werkzeug/_internal.py:88 127.0.0.1 - - [19/Mar/2019 19:27:15] "GET /favicon.ico HTTP/1.1" 200 -
+INFO /home/python/.virtualenvs/HMHome/lib/python3.6/site-packages/werkzeug/_internal.py:88 127.0.0.1 - - [19/Mar/2019 19:27:16] "GET /api/v1.0/user/houses HTTP/1.1" 200 -
+INFO /home/python/.virtualenvs/HMHome/lib/python3.6/site-packages/werkzeug/_internal.py:88 127.0.0.1 - - [19/Mar/2019 19:27:16] "GET /favicon.ico HTTP/1.1" 200 -
+INFO /home/python/.virtualenvs/HMHome/lib/python3.6/site-packages/werkzeug/_internal.py:88 127.0.0.1 - - [19/Mar/2019 19:27:16] "GET /api/v1.0/user/houses HTTP/1.1" 200 -
+INFO /home/python/.virtualenvs/HMHome/lib/python3.6/site-packages/werkzeug/_internal.py:88 127.0.0.1 - - [19/Mar/2019 19:27:16] "GET /favicon.ico HTTP/1.1" 200 -
+INFO /home/python/.virtualenvs/HMHome/lib/python3.6/site-packages/werkzeug/_internal.py:88 127.0.0.1 - - [19/Mar/2019 19:27:26] "GET /api/v1.0/user/houses HTTP/1.1" 200 -
+INFO /home/python/.virtualenvs/HMHome/lib/python3.6/site-packages/werkzeug/_internal.py:88 127.0.0.1 - - [19/Mar/2019 19:27:26] "GET /favicon.ico HTTP/1.1" 200 -
+INFO /home/python/.virtualenvs/HMHome/lib/python3.6/site-packages/werkzeug/_internal.py:88  * Detected change in '/home/python/Desktop/info/ihome/modules/api/passport.py', reloading
+INFO /home/python/.virtualenvs/HMHome/lib/python3.6/site-packages/werkzeug/_internal.py:88  * Restarting with stat
+WARNING /home/python/.virtualenvs/HMHome/lib/python3.6/site-packages/werkzeug/_internal.py:88  * Debugger is active!
+INFO /home/python/.virtualenvs/HMHome/lib/python3.6/site-packages/werkzeug/_internal.py:88  * Debugger PIN: 378-849-475
+INFO /home/python/.virtualenvs/HMHome/lib/python3.6/site-packages/werkzeug/_internal.py:88  * Detected change in '/home/python/Desktop/info/ihome/utils/constants.py', reloading
+INFO /home/python/.virtualenvs/HMHome/lib/python3.6/site-packages/werkzeug/_internal.py:88  * Restarting with stat
+WARNING /home/python/.virtualenvs/HMHome/lib/python3.6/site-packages/werkzeug/_internal.py:88  * Debugger is active!
+INFO /home/python/.virtualenvs/HMHome/lib/python3.6/site-packages/werkzeug/_internal.py:88  * Debugger PIN: 378-849-475
+INFO /home/python/.virtualenvs/HMHome/lib/python3.6/site-packages/werkzeug/_internal.py:88  * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+INFO /home/python/.virtualenvs/HMHome/lib/python3.6/site-packages/werkzeug/_internal.py:88  * Restarting with stat
+WARNING /home/python/.virtualenvs/HMHome/lib/python3.6/site-packages/werkzeug/_internal.py:88  * Debugger is active!
+INFO /home/python/.virtualenvs/HMHome/lib/python3.6/site-packages/werkzeug/_internal.py:88  * Debugger PIN: 378-849-475
+INFO /home/python/.virtualenvs/HMHome/lib/python3.6/site-packages/werkzeug/_internal.py:88 127.0.0.1 - - [19/Mar/2019 23:08:33] "GET / HTTP/1.1" 200 -
+INFO /home/python/.virtualenvs/HMHome/lib/python3.6/site-packages/werkzeug/_internal.py:88 127.0.0.1 - - [19/Mar/2019 23:08:33] "GET /static/plugins/bootstrap/css/bootstrap.min.css HTTP/1.1" 200 -
+INFO /home/python/.virtualenvs/HMHome/lib/python3.6/site-packages/werkzeug/_internal.py:88 127.0.0.1 - - [19/Mar/2019 23:08:33] "GET /static/plugins/font-awesome/css/font-awesome.min.css HTTP/1.1" 200 -
+INFO /home/python/.virtualenvs/HMHome/lib/python3.6/site-packages/werkzeug/_internal.py:88 127.0.0.1 - - [19/Mar/2019 23:08:33] "GET /static/css/reset.css HTTP/1.1" 200 -
+INFO /home/python/.virtualenvs/HMHome/lib/python3.6/site-packages/werkzeug/_internal.py:88 127.0.0.1 - - [19/Mar/2019 23:08:33] "GET /static/plugins/swiper/css/swiper.min.css HTTP/1.1" 200 -
+INFO /home/python/.virtualenvs/HMHome/lib/python3.6/site-packages/werkzeug/_internal.py:88 127.0.0.1 - - [19/Mar/2019 23:08:33] "GET /static/plugins/bootstrap-datepicker/css/bootstrap-datepicker.min.css HTTP/1.1" 200 -
+INFO /home/python/.virtualenvs/HMHome/lib/python3.6/site-packages/werkzeug/_internal.py:88 127.0.0.1 - - [19/Mar/2019 23:08:33] "GET /static/css/ihome/main.css HTTP/1.1" 200 -
+INFO /home/python/.virtualenvs/HMHome/lib/python3.6/site-packages/werkzeug/_internal.py:88 127.0.0.1 - - [19/Mar/2019 23:08:33] "GET /static/css/ihome/index.css HTTP/1.1" 200 -
+INFO /home/python/.virtualenvs/HMHome/lib/python3.6/site-packages/werkzeug/_internal.py:88 127.0.0.1 - - [19/Mar/2019 23:08:33] "GET /static/images/logo@128x59.png HTTP/1.1" 200 -
+INFO /home/python/.virtualenvs/HMHome/lib/python3.6/site-packages/werkzeug/_internal.py:88 127.0.0.1 - - [19/Mar/2019 23:08:33] "GET /static/js/jquery.min.js HTTP/1.1" 200 -
+INFO /home/python/.virtualenvs/HMHome/lib/python3.6/site-packages/werkzeug/_internal.py:88 127.0.0.1 - - [19/Mar/2019 23:08:33] "GET /static/plugins/bootstrap/js/bootstrap.min.js HTTP/1.1" 200 -
+INFO /home/python/.virtualenvs/HMHome/lib/python3.6/site-packages/werkzeug/_internal.py:88 127.0.0.1 - - [19/Mar/2019 23:08:33] "GET /static/plugins/swiper/js/swiper.jquery.min.js HTTP/1.1" 200 -
+INFO /home/python/.virtualenvs/HMHome/lib/python3.6/site-packages/werkzeug/_internal.py:88 127.0.0.1 - - [19/Mar/2019 23:08:33] "GET /static/plugins/bootstrap-datepicker/js/bootstrap-datepicker.min.js HTTP/1.1" 200 -
+INFO /home/python/.virtualenvs/HMHome/lib/python3.6/site-packages/werkzeug/_internal.py:88 127.0.0.1 - - [19/Mar/2019 23:08:33] "GET /static/plugins/bootstrap-datepicker/locales/bootstrap-datepicker.zh-CN.min.js HTTP/1.1" 200 -
+INFO /home/python/.virtualenvs/HMHome/lib/python3.6/site-packages/werkzeug/_internal.py:88 127.0.0.1 - - [19/Mar/2019 23:08:33] "GET /static/js/template.js HTTP/1.1" 200 -
+INFO /home/python/.virtualenvs/HMHome/lib/python3.6/site-packages/werkzeug/_internal.py:88 127.0.0.1 - - [19/Mar/2019 23:08:33] "GET /static/js/ihome/index.js HTTP/1.1" 200 -
+INFO /home/python/.virtualenvs/HMHome/lib/python3.6/site-packages/werkzeug/_internal.py:88 127.0.0.1 - - [19/Mar/2019 23:08:33] "GET /static/plugins/font-awesome/fonts/fontawesome-webfont.woff2?v=4.6.3 HTTP/1.1" 200 -
+INFO /home/python/.virtualenvs/HMHome/lib/python3.6/site-packages/werkzeug/_internal.py:88 127.0.0.1 - - [19/Mar/2019 23:08:33] "GET /api/v1.0/session HTTP/1.1" 200 -
+INFO /home/python/.virtualenvs/HMHome/lib/python3.6/site-packages/werkzeug/_internal.py:88 127.0.0.1 - - [19/Mar/2019 23:08:33] "GET /api/v1.0/houses/index HTTP/1.1" 200 -
+INFO /home/python/.virtualenvs/HMHome/lib/python3.6/site-packages/werkzeug/_internal.py:88 127.0.0.1 - - [19/Mar/2019 23:08:33] "GET /api/v1.0/areas HTTP/1.1" 500 -
+INFO /home/python/.virtualenvs/HMHome/lib/python3.6/site-packages/werkzeug/_internal.py:88 127.0.0.1 - - [19/Mar/2019 23:08:35] "GET /register.html HTTP/1.1" 200 -
+INFO /home/python/.virtualenvs/HMHome/lib/python3.6/site-packages/werkzeug/_internal.py:88 127.0.0.1 - - [19/Mar/2019 23:08:36] "GET /static/css/ihome/register.css HTTP/1.1" 200 -
+INFO /home/python/.virtualenvs/HMHome/lib/python3.6/site-packages/werkzeug/_internal.py:88 127.0.0.1 - - [19/Mar/2019 23:08:36] "GET /static/js/ihome/register.js?v=4 HTTP/1.1" 200 -
+INFO /home/python/.virtualenvs/HMHome/lib/python3.6/site-packages/werkzeug/_internal.py:88 127.0.0.1 - - [19/Mar/2019 23:08:36] "GET /api/v1.0/imagecode?cur=ba2ff893-6bbf-4654-8b76-ed222cfd5cb6&pre= HTTP/1.1" 200 -
+INFO /home/python/.virtualenvs/HMHome/lib/python3.6/site-packages/werkzeug/_internal.py:88 127.0.0.1 - - [19/Mar/2019 23:08:43] "GET /api/v1.0/imagecode?cur=0076bcd1-4f3b-4e4b-b126-d2964fce78c0&pre=ba2ff893-6bbf-4654-8b76-ed222cfd5cb6 HTTP/1.1" 200 -
+INFO /home/python/.virtualenvs/HMHome/lib/python3.6/site-packages/werkzeug/_internal.py:88 127.0.0.1 - - [19/Mar/2019 23:08:54] "POST /api/v1.0/smscode HTTP/1.1" 200 -
+INFO /home/python/.virtualenvs/HMHome/lib/python3.6/site-packages/werkzeug/_internal.py:88 127.0.0.1 - - [19/Mar/2019 23:09:46] "GET /api/v1.0/imagecode?cur=b4acb4ec-d5e6-408c-8433-61b700f9ee90&pre=0076bcd1-4f3b-4e4b-b126-d2964fce78c0 HTTP/1.1" 200 -
+INFO /home/python/.virtualenvs/HMHome/lib/python3.6/site-packages/werkzeug/_internal.py:88 127.0.0.1 - - [19/Mar/2019 23:12:04] "GET /login.html HTTP/1.1" 200 -
+INFO /home/python/.virtualenvs/HMHome/lib/python3.6/site-packages/werkzeug/_internal.py:88 127.0.0.1 - - [19/Mar/2019 23:12:04] "GET /static/css/ihome/login.css HTTP/1.1" 200 -
+INFO /home/python/.virtualenvs/HMHome/lib/python3.6/site-packages/werkzeug/_internal.py:88 127.0.0.1 - - [19/Mar/2019 23:12:04] "GET /static/js/ihome/login.js HTTP/1.1" 200 -
+INFO /home/python/.virtualenvs/HMHome/lib/python3.6/site-packages/werkzeug/_internal.py:88 127.0.0.1 - - [19/Mar/2019 23:12:21] "POST /api/v1.0/session HTTP/1.1" 200 -
+INFO /home/python/.virtualenvs/HMHome/lib/python3.6/site-packages/werkzeug/_internal.py:88 127.0.0.1 - - [19/Mar/2019 23:12:22] "POST /api/v1.0/session HTTP/1.1" 200 -
+INFO /home/python/.virtualenvs/HMHome/lib/python3.6/site-packages/werkzeug/_internal.py:88 127.0.0.1 - - [19/Mar/2019 23:12:22] "POST /api/v1.0/session HTTP/1.1" 200 -
+INFO /home/python/.virtualenvs/HMHome/lib/python3.6/site-packages/werkzeug/_internal.py:88 127.0.0.1 - - [19/Mar/2019 23:12:22] "POST /api/v1.0/session HTTP/1.1" 200 -
+INFO /home/python/.virtualenvs/HMHome/lib/python3.6/site-packages/werkzeug/_internal.py:88 127.0.0.1 - - [19/Mar/2019 23:12:22] "POST /api/v1.0/session HTTP/1.1" 200 -
+INFO /home/python/.virtualenvs/HMHome/lib/python3.6/site-packages/werkzeug/_internal.py:88 127.0.0.1 - - [19/Mar/2019 23:12:26] "POST /api/v1.0/session HTTP/1.1" 200 -
+INFO /home/python/.virtualenvs/HMHome/lib/python3.6/site-packages/werkzeug/_internal.py:88 127.0.0.1 - - [19/Mar/2019 23:23:52] "POST /api/v1.0/session HTTP/1.1" 200 -
+INFO /home/python/.virtualenvs/HMHome/lib/python3.6/site-packages/werkzeug/_internal.py:88 127.0.0.1 - - [19/Mar/2019 23:23:52] "GET /index.html HTTP/1.1" 200 -
+INFO /home/python/.virtualenvs/HMHome/lib/python3.6/site-packages/werkzeug/_internal.py:88 127.0.0.1 - - [19/Mar/2019 23:23:52] "GET /api/v1.0/session HTTP/1.1" 200 -
+INFO /home/python/.virtualenvs/HMHome/lib/python3.6/site-packages/werkzeug/_internal.py:88 127.0.0.1 - - [19/Mar/2019 23:23:53] "GET /api/v1.0/houses/index HTTP/1.1" 200 -
+INFO /home/python/.virtualenvs/HMHome/lib/python3.6/site-packages/werkzeug/_internal.py:88 127.0.0.1 - - [19/Mar/2019 23:23:53] "GET /api/v1.0/areas HTTP/1.1" 500 -
+INFO /home/python/.virtualenvs/HMHome/lib/python3.6/site-packages/werkzeug/_internal.py:88 127.0.0.1 - - [19/Mar/2019 23:24:58] "GET /search.html?aid=&aname=&sd=&ed= HTTP/1.1" 200 -
+INFO /home/python/.virtualenvs/HMHome/lib/python3.6/site-packages/werkzeug/_internal.py:88 127.0.0.1 - - [19/Mar/2019 23:24:58] "GET /static/css/ihome/search.css HTTP/1.1" 200 -
+INFO /home/python/.virtualenvs/HMHome/lib/python3.6/site-packages/werkzeug/_internal.py:88 127.0.0.1 - - [19/Mar/2019 23:24:58] "GET /static/js/ihome/search.js HTTP/1.1" 200 -
+INFO /home/python/.virtualenvs/HMHome/lib/python3.6/site-packages/werkzeug/_internal.py:88 127.0.0.1 - - [19/Mar/2019 23:24:58] "GET /api/v1.0/areas HTTP/1.1" 500 -
+INFO /home/python/.virtualenvs/HMHome/lib/python3.6/site-packages/werkzeug/_internal.py:88 127.0.0.1 - - [19/Mar/2019 23:25:04] "GET /api/v1.0/session HTTP/1.1" 200 -
+INFO /home/python/.virtualenvs/HMHome/lib/python3.6/site-packages/werkzeug/_internal.py:88 127.0.0.1 - - [19/Mar/2019 23:25:04] "GET /api/v1.0/houses/index HTTP/1.1" 200 -
+INFO /home/python/.virtualenvs/HMHome/lib/python3.6/site-packages/werkzeug/_internal.py:88 127.0.0.1 - - [19/Mar/2019 23:25:04] "GET /api/v1.0/areas HTTP/1.1" 500 -
+INFO /home/python/.virtualenvs/HMHome/lib/python3.6/site-packages/werkzeug/_internal.py:88 127.0.0.1 - - [19/Mar/2019 23:25:06] "GET /my.html HTTP/1.1" 200 -
+INFO /home/python/.virtualenvs/HMHome/lib/python3.6/site-packages/werkzeug/_internal.py:88 127.0.0.1 - - [19/Mar/2019 23:25:06] "GET /static/css/ihome/my.css HTTP/1.1" 200 -
+INFO /home/python/.virtualenvs/HMHome/lib/python3.6/site-packages/werkzeug/_internal.py:88 127.0.0.1 - - [19/Mar/2019 23:25:06] "GET /static/js/ihome/my.js HTTP/1.1" 200 -
+INFO /home/python/.virtualenvs/HMHome/lib/python3.6/site-packages/werkzeug/_internal.py:88 127.0.0.1 - - [19/Mar/2019 23:25:06] "GET /api/v1.0/user HTTP/1.1" 200 -
+INFO /home/python/.virtualenvs/HMHome/lib/python3.6/site-packages/werkzeug/_internal.py:88 127.0.0.1 - - [19/Mar/2019 23:25:09] "GET /myhouse.html HTTP/1.1" 200 -
+INFO /home/python/.virtualenvs/HMHome/lib/python3.6/site-packages/werkzeug/_internal.py:88 127.0.0.1 - - [19/Mar/2019 23:25:09] "GET /static/css/ihome/myhouse.css HTTP/1.1" 200 -
+INFO /home/python/.virtualenvs/HMHome/lib/python3.6/site-packages/werkzeug/_internal.py:88 127.0.0.1 - - [19/Mar/2019 23:25:09] "GET /static/js/ihome/myhouse.js HTTP/1.1" 200 -
+INFO /home/python/.virtualenvs/HMHome/lib/python3.6/site-packages/werkzeug/_internal.py:88 127.0.0.1 - - [19/Mar/2019 23:25:09] "GET /api/v1.0/user/auth HTTP/1.1" 200 -
+INFO /home/python/.virtualenvs/HMHome/lib/python3.6/site-packages/werkzeug/_internal.py:88 127.0.0.1 - - [19/Mar/2019 23:25:09] "GET /api/v1.0/user/houses HTTP/1.1" 200 -
+INFO /home/python/.virtualenvs/HMHome/lib/python3.6/site-packages/werkzeug/_internal.py:88 127.0.0.1 - - [19/Mar/2019 23:25:10] "GET /api/v1.0/user HTTP/1.1" 200 -
+INFO /home/python/.virtualenvs/HMHome/lib/python3.6/site-packages/werkzeug/_internal.py:88 127.0.0.1 - - [19/Mar/2019 23:25:14] "GET /orders.html HTTP/1.1" 200 -
+INFO /home/python/.virtualenvs/HMHome/lib/python3.6/site-packages/werkzeug/_internal.py:88 127.0.0.1 - - [19/Mar/2019 23:25:14] "GET /static/css/ihome/orders.css HTTP/1.1" 200 -
+INFO /home/python/.virtualenvs/HMHome/lib/python3.6/site-packages/werkzeug/_internal.py:88 127.0.0.1 - - [19/Mar/2019 23:25:14] "GET /static/js/ihome/orders.js HTTP/1.1" 200 -
+INFO /home/python/.virtualenvs/HMHome/lib/python3.6/site-packages/werkzeug/_internal.py:88 127.0.0.1 - - [19/Mar/2019 23:25:14] "GET /api/v1.0/orders?role=custom HTTP/1.1" 500 -
+INFO /home/python/.virtualenvs/HMHome/lib/python3.6/site-packages/werkzeug/_internal.py:88 127.0.0.1 - - [19/Mar/2019 23:25:16] "GET /api/v1.0/user HTTP/1.1" 200 -
+INFO /home/python/.virtualenvs/HMHome/lib/python3.6/site-packages/werkzeug/_internal.py:88 127.0.0.1 - - [19/Mar/2019 23:25:18] "GET /api/v1.0/user/auth HTTP/1.1" 200 -
+INFO /home/python/.virtualenvs/HMHome/lib/python3.6/site-packages/werkzeug/_internal.py:88 127.0.0.1 - - [19/Mar/2019 23:25:18] "GET /api/v1.0/user/houses HTTP/1.1" 200 -
+INFO /home/python/.virtualenvs/HMHome/lib/python3.6/site-packages/werkzeug/_internal.py:88 127.0.0.1 - - [19/Mar/2019 23:25:20] "GET /api/v1.0/user HTTP/1.1" 200 -
+INFO /home/python/.virtualenvs/HMHome/lib/python3.6/site-packages/werkzeug/_internal.py:88 127.0.0.1 - - [19/Mar/2019 23:25:22] "GET /lorders.html HTTP/1.1" 200 -
+INFO /home/python/.virtualenvs/HMHome/lib/python3.6/site-packages/werkzeug/_internal.py:88 127.0.0.1 - - [19/Mar/2019 23:25:22] "GET /static/js/ihome/lorders.js HTTP/1.1" 200 -
+INFO /home/python/.virtualenvs/HMHome/lib/python3.6/site-packages/werkzeug/_internal.py:88 127.0.0.1 - - [19/Mar/2019 23:25:22] "GET /api/v1.0/orders?role=landlord HTTP/1.1" 500 -
+INFO /home/python/.virtualenvs/HMHome/lib/python3.6/site-packages/werkzeug/_internal.py:88 127.0.0.1 - - [19/Mar/2019 23:25:26] "GET /api/v1.0/user HTTP/1.1" 200 -
+INFO /home/python/.virtualenvs/HMHome/lib/python3.6/site-packages/werkzeug/_internal.py:88 127.0.0.1 - - [19/Mar/2019 23:25:28] "GET /profile.html HTTP/1.1" 200 -
+INFO /home/python/.virtualenvs/HMHome/lib/python3.6/site-packages/werkzeug/_internal.py:88 127.0.0.1 - - [19/Mar/2019 23:25:28] "GET /static/css/ihome/profile.css HTTP/1.1" 200 -
+INFO /home/python/.virtualenvs/HMHome/lib/python3.6/site-packages/werkzeug/_internal.py:88 127.0.0.1 - - [19/Mar/2019 23:25:28] "GET /static/js/jquery.form.min.js HTTP/1.1" 200 -
+INFO /home/python/.virtualenvs/HMHome/lib/python3.6/site-packages/werkzeug/_internal.py:88 127.0.0.1 - - [19/Mar/2019 23:25:28] "GET /static/js/ihome/profile.js?v=5 HTTP/1.1" 200 -
+INFO /home/python/.virtualenvs/HMHome/lib/python3.6/site-packages/werkzeug/_internal.py:88 127.0.0.1 - - [19/Mar/2019 23:25:28] "GET /api/v1.0/user HTTP/1.1" 200 -
+DEBUG /home/python/.virtualenvs/HMHome/lib/python3.6/site-packages/urllib3/connectionpool.py:813 Starting new HTTPS connection (1): uc.qbox.me:443
+DEBUG /home/python/.virtualenvs/HMHome/lib/python3.6/site-packages/urllib3/connectionpool.py:393 https://uc.qbox.me:443 "GET /v1/query?ak=G0T0OXtgaqGajV77S56w-HRFZoF07cEBY8h8BU6Z&bucket=information HTTP/1.1" 200 238
+DEBUG /home/python/.virtualenvs/HMHome/lib/python3.6/site-packages/urllib3/util/retry.py:210 Converted retries value: 3 -> Retry(total=3, connect=None, read=None, redirect=None, status=None)
+DEBUG /home/python/.virtualenvs/HMHome/lib/python3.6/site-packages/urllib3/connectionpool.py:205 Starting new HTTP connection (1): up.qiniu.com:80
+DEBUG /home/python/.virtualenvs/HMHome/lib/python3.6/site-packages/urllib3/connectionpool.py:393 http://up.qiniu.com:80 "POST / HTTP/1.1" 200 76
+INFO /home/python/.virtualenvs/HMHome/lib/python3.6/site-packages/werkzeug/_internal.py:88 127.0.0.1 - - [19/Mar/2019 23:25:45] "POST /api/v1.0/user/avatar HTTP/1.1" 200 -
+DEBUG /home/python/.virtualenvs/HMHome/lib/python3.6/site-packages/urllib3/connectionpool.py:393 http://up.qiniu.com:80 "POST / HTTP/1.1" 200 76
+INFO /home/python/.virtualenvs/HMHome/lib/python3.6/site-packages/werkzeug/_internal.py:88 127.0.0.1 - - [19/Mar/2019 23:25:45] "POST /api/v1.0/user/avatar HTTP/1.1" 200 -
+INFO /home/python/.virtualenvs/HMHome/lib/python3.6/site-packages/werkzeug/_internal.py:88 127.0.0.1 - - [19/Mar/2019 23:25:45] "POST /api/v1.0/user/name HTTP/1.1" 500 -
+INFO /home/python/.virtualenvs/HMHome/lib/python3.6/site-packages/werkzeug/_internal.py:88 127.0.0.1 - - [19/Mar/2019 23:25:47] "GET /api/v1.0/user HTTP/1.1" 200 -
+INFO /home/python/.virtualenvs/HMHome/lib/python3.6/site-packages/werkzeug/_internal.py:88  * Detected change in '/home/python/Desktop/info/ihome/modules/api/house.py', reloading
+INFO /home/python/.virtualenvs/HMHome/lib/python3.6/site-packages/werkzeug/_internal.py:88  * Restarting with stat
+WARNING /home/python/.virtualenvs/HMHome/lib/python3.6/site-packages/werkzeug/_internal.py:88  * Debugger is active!
+INFO /home/python/.virtualenvs/HMHome/lib/python3.6/site-packages/werkzeug/_internal.py:88  * Debugger PIN: 378-849-475
+INFO /home/python/.virtualenvs/HMHome/lib/python3.6/site-packages/werkzeug/_internal.py:88 127.0.0.1 - - [19/Mar/2019 23:27:35] "GET /api/v1.0/session HTTP/1.1" 200 -
+INFO /home/python/.virtualenvs/HMHome/lib/python3.6/site-packages/werkzeug/_internal.py:88 127.0.0.1 - - [19/Mar/2019 23:27:35] "GET /api/v1.0/houses/index HTTP/1.1" 200 -
+INFO /home/python/.virtualenvs/HMHome/lib/python3.6/site-packages/werkzeug/_internal.py:88 127.0.0.1 - - [19/Mar/2019 23:27:35] "GET /api/v1.0/areas HTTP/1.1" 500 -
+INFO /home/python/.virtualenvs/HMHome/lib/python3.6/site-packages/werkzeug/_internal.py:88 127.0.0.1 - - [19/Mar/2019 23:27:57] "GET /api/v1.0/user/houses HTTP/1.1" 200 -
+INFO /home/python/.virtualenvs/HMHome/lib/python3.6/site-packages/werkzeug/_internal.py:88  * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+INFO /home/python/.virtualenvs/HMHome/lib/python3.6/site-packages/werkzeug/_internal.py:88  * Restarting with stat
+WARNING /home/python/.virtualenvs/HMHome/lib/python3.6/site-packages/werkzeug/_internal.py:88  * Debugger is active!
+INFO /home/python/.virtualenvs/HMHome/lib/python3.6/site-packages/werkzeug/_internal.py:88  * Debugger PIN: 378-849-475
+INFO /home/python/.virtualenvs/HMHome/lib/python3.6/site-packages/werkzeug/_internal.py:88 127.0.0.1 - - [19/Mar/2019 23:29:36] "GET /api/v1.0/user/houses HTTP/1.1" 200 -
+INFO /home/python/.virtualenvs/HMHome/lib/python3.6/site-packages/werkzeug/_internal.py:88 127.0.0.1 - - [19/Mar/2019 23:29:53] "GET /user/houses HTTP/1.1" 404 -
+INFO /home/python/.virtualenvs/HMHome/lib/python3.6/site-packages/werkzeug/_internal.py:88 127.0.0.1 - - [19/Mar/2019 23:29:57] "GET /api/v1.0/user HTTP/1.1" 200 -
+INFO /home/python/.virtualenvs/HMHome/lib/python3.6/site-packages/werkzeug/_internal.py:88 127.0.0.1 - - [19/Mar/2019 23:32:36] "GET /api/v1.0/user/houses HTTP/1.1" 200 -
+INFO /home/python/.virtualenvs/HMHome/lib/python3.6/site-packages/werkzeug/_internal.py:88 127.0.0.1 - - [19/Mar/2019 23:32:36] "GET /favicon.ico HTTP/1.1" 200 -
+INFO /home/python/.virtualenvs/HMHome/lib/python3.6/site-packages/werkzeug/_internal.py:88  * Detected change in '/home/python/Desktop/info/ihome/modules/api/house.py', reloading
+INFO /home/python/.virtualenvs/HMHome/lib/python3.6/site-packages/werkzeug/_internal.py:88  * Restarting with stat
+WARNING /home/python/.virtualenvs/HMHome/lib/python3.6/site-packages/werkzeug/_internal.py:88  * Debugger is active!
+INFO /home/python/.virtualenvs/HMHome/lib/python3.6/site-packages/werkzeug/_internal.py:88  * Debugger PIN: 378-849-475
+INFO /home/python/.virtualenvs/HMHome/lib/python3.6/site-packages/werkzeug/_internal.py:88 127.0.0.1 - - [19/Mar/2019 23:38:44] "GET /api/v1.0/user/houses HTTP/1.1" 200 -
+INFO /home/python/.virtualenvs/HMHome/lib/python3.6/site-packages/werkzeug/_internal.py:88 127.0.0.1 - - [19/Mar/2019 23:38:44] "GET /api/v1.0/session HTTP/1.1" 200 -
+INFO /home/python/.virtualenvs/HMHome/lib/python3.6/site-packages/werkzeug/_internal.py:88 127.0.0.1 - - [19/Mar/2019 23:38:45] "GET /api/v1.0/houses/index HTTP/1.1" 200 -
+INFO /home/python/.virtualenvs/HMHome/lib/python3.6/site-packages/werkzeug/_internal.py:88 127.0.0.1 - - [19/Mar/2019 23:38:45] "GET /api/v1.0/areas HTTP/1.1" 500 -
+INFO /home/python/.virtualenvs/HMHome/lib/python3.6/site-packages/werkzeug/_internal.py:88 127.0.0.1 - - [19/Mar/2019 23:38:45] "POST /api/v1.0/session HTTP/1.1" 200 -
+INFO /home/python/.virtualenvs/HMHome/lib/python3.6/site-packages/werkzeug/_internal.py:88 127.0.0.1 - - [19/Mar/2019 23:38:45] "POST /api/v1.0/session HTTP/1.1" 200 -
+INFO /home/python/.virtualenvs/HMHome/lib/python3.6/site-packages/werkzeug/_internal.py:88 127.0.0.1 - - [19/Mar/2019 23:38:45] "GET /api/v1.0/session HTTP/1.1" 200 -
+INFO /home/python/.virtualenvs/HMHome/lib/python3.6/site-packages/werkzeug/_internal.py:88 127.0.0.1 - - [19/Mar/2019 23:38:45] "GET /api/v1.0/houses/index HTTP/1.1" 200 -
+INFO /home/python/.virtualenvs/HMHome/lib/python3.6/site-packages/werkzeug/_internal.py:88 127.0.0.1 - - [19/Mar/2019 23:38:45] "GET /api/v1.0/areas HTTP/1.1" 500 -
+INFO /home/python/.virtualenvs/HMHome/lib/python3.6/site-packages/werkzeug/_internal.py:88 127.0.0.1 - - [19/Mar/2019 23:38:57] "GET /api/v1.0/user HTTP/1.1" 200 -
+INFO /home/python/.virtualenvs/HMHome/lib/python3.6/site-packages/werkzeug/_internal.py:88 127.0.0.1 - - [19/Mar/2019 23:39:02] "GET /api/v1.0/user/auth HTTP/1.1" 200 -
+INFO /home/python/.virtualenvs/HMHome/lib/python3.6/site-packages/werkzeug/_internal.py:88 127.0.0.1 - - [19/Mar/2019 23:42:07] "GET /api/v1.0/user/houses HTTP/1.1" 200 -
+INFO /home/python/.virtualenvs/HMHome/lib/python3.6/site-packages/werkzeug/_internal.py:88 127.0.0.1 - - [19/Mar/2019 23:42:07] "GET /api/v1.0/user/auth HTTP/1.1" 200 -
+INFO /home/python/.virtualenvs/HMHome/lib/python3.6/site-packages/werkzeug/_internal.py:88 127.0.0.1 - - [19/Mar/2019 23:42:07] "GET /api/v1.0/user HTTP/1.1" 200 -
+INFO /home/python/.virtualenvs/HMHome/lib/python3.6/site-packages/werkzeug/_internal.py:88 127.0.0.1 - - [19/Mar/2019 23:42:07] "GET /api/v1.0/orders?role=landlord HTTP/1.1" 500 -
+INFO /home/python/.virtualenvs/HMHome/lib/python3.6/site-packages/werkzeug/_internal.py:88 127.0.0.1 - - [19/Mar/2019 23:42:07] "GET /api/v1.0/user HTTP/1.1" 200 -
+INFO /home/python/.virtualenvs/HMHome/lib/python3.6/site-packages/werkzeug/_internal.py:88 127.0.0.1 - - [19/Mar/2019 23:42:07] "GET /api/v1.0/user/auth HTTP/1.1" 200 -
+INFO /home/python/.virtualenvs/HMHome/lib/python3.6/site-packages/werkzeug/_internal.py:88 127.0.0.1 - - [19/Mar/2019 23:42:07] "GET /api/v1.0/user/houses HTTP/1.1" 200 -
+INFO /home/python/.virtualenvs/HMHome/lib/python3.6/site-packages/werkzeug/_internal.py:88 127.0.0.1 - - [19/Mar/2019 23:42:07] "GET /api/v1.0/user/houses HTTP/1.1" 200 -
+INFO /home/python/.virtualenvs/HMHome/lib/python3.6/site-packages/werkzeug/_internal.py:88 127.0.0.1 - - [19/Mar/2019 23:42:07] "GET /favicon.ico HTTP/1.1" 200 -
+INFO /home/python/.virtualenvs/HMHome/lib/python3.6/site-packages/werkzeug/_internal.py:88 127.0.0.1 - - [19/Mar/2019 23:48:48] "GET /api/v1.0/user/houses HTTP/1.1" 200 -
+INFO /home/python/.virtualenvs/HMHome/lib/python3.6/site-packages/werkzeug/_internal.py:88 127.0.0.1 - - [19/Mar/2019 23:48:48] "GET /favicon.ico HTTP/1.1" 200 -
+INFO /home/python/.virtualenvs/HMHome/lib/python3.6/site-packages/werkzeug/_internal.py:88  * Detected change in '/home/python/Desktop/info/ihome/modules/api/house.py', reloading
+INFO /home/python/.virtualenvs/HMHome/lib/python3.6/site-packages/werkzeug/_internal.py:88  * Restarting with stat
+WARNING /home/python/.virtualenvs/HMHome/lib/python3.6/site-packages/werkzeug/_internal.py:88  * Debugger is active!
+INFO /home/python/.virtualenvs/HMHome/lib/python3.6/site-packages/werkzeug/_internal.py:88  * Debugger PIN: 378-849-475
+ERROR /home/python/Desktop/info/ihome/modules/api/house.py:63 type object 'House' has no attribute 'ctime'
+INFO /home/python/.virtualenvs/HMHome/lib/python3.6/site-packages/werkzeug/_internal.py:88 127.0.0.1 - - [19/Mar/2019 23:49:39] "GET /api/v1.0/user/houses HTTP/1.1" 200 -
+INFO /home/python/.virtualenvs/HMHome/lib/python3.6/site-packages/werkzeug/_internal.py:88 127.0.0.1 - - [19/Mar/2019 23:49:39] "GET /favicon.ico HTTP/1.1" 200 -
+INFO /home/python/.virtualenvs/HMHome/lib/python3.6/site-packages/werkzeug/_internal.py:88  * Detected change in '/home/python/Desktop/info/ihome/modules/api/house.py', reloading
+INFO /home/python/.virtualenvs/HMHome/lib/python3.6/site-packages/werkzeug/_internal.py:88  * Restarting with stat
+WARNING /home/python/.virtualenvs/HMHome/lib/python3.6/site-packages/werkzeug/_internal.py:88  * Debugger is active!
+INFO /home/python/.virtualenvs/HMHome/lib/python3.6/site-packages/werkzeug/_internal.py:88  * Debugger PIN: 378-849-475
+ERROR /home/python/Desktop/info/ihome/modules/api/house.py:63 'BaseQuery' object has no attribute 'items'
+INFO /home/python/.virtualenvs/HMHome/lib/python3.6/site-packages/werkzeug/_internal.py:88 127.0.0.1 - - [20/Mar/2019 00:01:58] "GET /api/v1.0/user/houses HTTP/1.1" 200 -
+INFO /home/python/.virtualenvs/HMHome/lib/python3.6/site-packages/werkzeug/_internal.py:88 127.0.0.1 - - [20/Mar/2019 00:01:58] "GET /favicon.ico HTTP/1.1" 200 -
+INFO /home/python/.virtualenvs/HMHome/lib/python3.6/site-packages/werkzeug/_internal.py:88  * Detected change in '/home/python/Desktop/info/ihome/modules/api/house.py', reloading
+INFO /home/python/.virtualenvs/HMHome/lib/python3.6/site-packages/werkzeug/_internal.py:88  * Restarting with stat
+WARNING /home/python/.virtualenvs/HMHome/lib/python3.6/site-packages/werkzeug/_internal.py:88  * Debugger is active!
+INFO /home/python/.virtualenvs/HMHome/lib/python3.6/site-packages/werkzeug/_internal.py:88  * Debugger PIN: 378-849-475
+INFO /home/python/.virtualenvs/HMHome/lib/python3.6/site-packages/werkzeug/_internal.py:88  * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+INFO /home/python/.virtualenvs/HMHome/lib/python3.6/site-packages/werkzeug/_internal.py:88  * Restarting with stat
+WARNING /home/python/.virtualenvs/HMHome/lib/python3.6/site-packages/werkzeug/_internal.py:88  * Debugger is active!
+INFO /home/python/.virtualenvs/HMHome/lib/python3.6/site-packages/werkzeug/_internal.py:88  * Debugger PIN: 378-849-475
+ERROR /home/python/Desktop/info/ihome/modules/api/house.py:63 unsupported operand type(s) for +: 'int' and 'str'
+INFO /home/python/.virtualenvs/HMHome/lib/python3.6/site-packages/werkzeug/_internal.py:88 127.0.0.1 - - [20/Mar/2019 00:06:33] "GET /api/v1.0/user/houses HTTP/1.1" 200 -
+INFO /home/python/.virtualenvs/HMHome/lib/python3.6/site-packages/werkzeug/_internal.py:88 127.0.0.1 - - [20/Mar/2019 00:06:33] "GET /favicon.ico HTTP/1.1" 200 -
+ERROR /home/python/Desktop/info/ihome/modules/api/house.py:63 unsupported operand type(s) for +: 'int' and 'str'
+INFO /home/python/.virtualenvs/HMHome/lib/python3.6/site-packages/werkzeug/_internal.py:88 127.0.0.1 - - [20/Mar/2019 00:07:50] "GET /api/v1.0/user/houses HTTP/1.1" 200 -
+INFO /home/python/.virtualenvs/HMHome/lib/python3.6/site-packages/werkzeug/_internal.py:88 127.0.0.1 - - [20/Mar/2019 00:07:50] "GET /favicon.ico HTTP/1.1" 200 -
+INFO /home/python/.virtualenvs/HMHome/lib/python3.6/site-packages/werkzeug/_internal.py:88  * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+INFO /home/python/.virtualenvs/HMHome/lib/python3.6/site-packages/werkzeug/_internal.py:88  * Restarting with stat
+WARNING /home/python/.virtualenvs/HMHome/lib/python3.6/site-packages/werkzeug/_internal.py:88  * Debugger is active!
+INFO /home/python/.virtualenvs/HMHome/lib/python3.6/site-packages/werkzeug/_internal.py:88  * Debugger PIN: 378-849-475
+ERROR /home/python/Desktop/info/ihome/modules/api/house.py:63 'BaseQuery' object has no attribute 'items'
+INFO /home/python/.virtualenvs/HMHome/lib/python3.6/site-packages/werkzeug/_internal.py:88 127.0.0.1 - - [20/Mar/2019 00:09:45] "GET /api/v1.0/user/houses HTTP/1.1" 200 -
+INFO /home/python/.virtualenvs/HMHome/lib/python3.6/site-packages/werkzeug/_internal.py:88 127.0.0.1 - - [20/Mar/2019 00:09:45] "GET /favicon.ico HTTP/1.1" 200 -
+INFO /home/python/.virtualenvs/HMHome/lib/python3.6/site-packages/werkzeug/_internal.py:88  * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+INFO /home/python/.virtualenvs/HMHome/lib/python3.6/site-packages/werkzeug/_internal.py:88  * Restarting with stat
+WARNING /home/python/.virtualenvs/HMHome/lib/python3.6/site-packages/werkzeug/_internal.py:88  * Debugger is active!
+INFO /home/python/.virtualenvs/HMHome/lib/python3.6/site-packages/werkzeug/_internal.py:88  * Debugger PIN: 378-849-475
+INFO /home/python/.virtualenvs/HMHome/lib/python3.6/site-packages/werkzeug/_internal.py:88 127.0.0.1 - - [20/Mar/2019 00:12:30] "GET /api/v1.0/user/houses HTTP/1.1" 200 -
+INFO /home/python/.virtualenvs/HMHome/lib/python3.6/site-packages/werkzeug/_internal.py:88 127.0.0.1 - - [20/Mar/2019 00:12:30] "GET /favicon.ico HTTP/1.1" 200 -
+INFO /home/python/.virtualenvs/HMHome/lib/python3.6/site-packages/werkzeug/_internal.py:88  * Detected change in '/home/python/Desktop/info/ihome/modules/api/house.py', reloading
+INFO /home/python/.virtualenvs/HMHome/lib/python3.6/site-packages/werkzeug/_internal.py:88  * Restarting with stat
+WARNING /home/python/.virtualenvs/HMHome/lib/python3.6/site-packages/werkzeug/_internal.py:88  * Debugger is active!
+INFO /home/python/.virtualenvs/HMHome/lib/python3.6/site-packages/werkzeug/_internal.py:88  * Debugger PIN: 378-849-475
+INFO /home/python/.virtualenvs/HMHome/lib/python3.6/site-packages/werkzeug/_internal.py:88 127.0.0.1 - - [20/Mar/2019 00:13:13] "GET /api/v1.0/user/houses HTTP/1.1" 200 -
+INFO /home/python/.virtualenvs/HMHome/lib/python3.6/site-packages/werkzeug/_internal.py:88 127.0.0.1 - - [20/Mar/2019 00:13:13] "GET /favicon.ico HTTP/1.1" 200 -
+INFO /home/python/.virtualenvs/HMHome/lib/python3.6/site-packages/werkzeug/_internal.py:88 127.0.0.1 - - [20/Mar/2019 00:15:16] "GET /api/v1.0/user/houses HTTP/1.1" 200 -
+INFO /home/python/.virtualenvs/HMHome/lib/python3.6/site-packages/werkzeug/_internal.py:88 127.0.0.1 - - [20/Mar/2019 00:15:16] "GET /favicon.ico HTTP/1.1" 200 -
+INFO /home/python/.virtualenvs/HMHome/lib/python3.6/site-packages/werkzeug/_internal.py:88  * Detected change in '/home/python/Desktop/info/ihome/modules/api/house.py', reloading
+INFO /home/python/.virtualenvs/HMHome/lib/python3.6/site-packages/werkzeug/_internal.py:88  * Restarting with stat
+WARNING /home/python/.virtualenvs/HMHome/lib/python3.6/site-packages/werkzeug/_internal.py:88  * Debugger is active!
+INFO /home/python/.virtualenvs/HMHome/lib/python3.6/site-packages/werkzeug/_internal.py:88  * Debugger PIN: 378-849-475
+INFO /home/python/.virtualenvs/HMHome/lib/python3.6/site-packages/werkzeug/_internal.py:88  * Detected change in '/home/python/Desktop/info/ihome/modules/api/house.py', reloading
+INFO /home/python/.virtualenvs/HMHome/lib/python3.6/site-packages/werkzeug/_internal.py:88  * Restarting with stat
+WARNING /home/python/.virtualenvs/HMHome/lib/python3.6/site-packages/werkzeug/_internal.py:88  * Debugger is active!
+INFO /home/python/.virtualenvs/HMHome/lib/python3.6/site-packages/werkzeug/_internal.py:88  * Debugger PIN: 378-849-475
+INFO /home/python/.virtualenvs/HMHome/lib/python3.6/site-packages/werkzeug/_internal.py:88 127.0.0.1 - - [20/Mar/2019 00:17:22] "GET /api/v1.0/user/houses HTTP/1.1" 200 -
+INFO /home/python/.virtualenvs/HMHome/lib/python3.6/site-packages/werkzeug/_internal.py:88 127.0.0.1 - - [20/Mar/2019 00:17:22] "GET /favicon.ico HTTP/1.1" 200 -
+INFO /home/python/.virtualenvs/HMHome/lib/python3.6/site-packages/werkzeug/_internal.py:88 127.0.0.1 - - [20/Mar/2019 00:17:59] "GET /api/v1.0/user/houses HTTP/1.1" 200 -
+INFO /home/python/.virtualenvs/HMHome/lib/python3.6/site-packages/werkzeug/_internal.py:88 127.0.0.1 - - [20/Mar/2019 00:17:59] "GET /favicon.ico HTTP/1.1" 200 -
+INFO /home/python/.virtualenvs/HMHome/lib/python3.6/site-packages/werkzeug/_internal.py:88  * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+INFO /home/python/.virtualenvs/HMHome/lib/python3.6/site-packages/werkzeug/_internal.py:88  * Restarting with stat
+WARNING /home/python/.virtualenvs/HMHome/lib/python3.6/site-packages/werkzeug/_internal.py:88  * Debugger is active!
+INFO /home/python/.virtualenvs/HMHome/lib/python3.6/site-packages/werkzeug/_internal.py:88  * Debugger PIN: 378-849-475
+INFO /home/python/.virtualenvs/HMHome/lib/python3.6/site-packages/werkzeug/_internal.py:88 127.0.0.1 - - [20/Mar/2019 00:35:19] "GET /api/v1.0/user/houses HTTP/1.1" 200 -
+INFO /home/python/.virtualenvs/HMHome/lib/python3.6/site-packages/werkzeug/_internal.py:88 127.0.0.1 - - [20/Mar/2019 00:35:19] "GET /favicon.ico HTTP/1.1" 200 -
+INFO /home/python/.virtualenvs/HMHome/lib/python3.6/site-packages/werkzeug/_internal.py:88 127.0.0.1 - - [20/Mar/2019 00:35:20] "GET /api/v1.0/user/houses HTTP/1.1" 200 -
+INFO /home/python/.virtualenvs/HMHome/lib/python3.6/site-packages/werkzeug/_internal.py:88 127.0.0.1 - - [20/Mar/2019 00:35:20] "GET /favicon.ico HTTP/1.1" 200 -
+INFO /home/python/.virtualenvs/HMHome/lib/python3.6/site-packages/werkzeug/_internal.py:88 127.0.0.1 - - [20/Mar/2019 00:35:20] "GET /api/v1.0/user/houses HTTP/1.1" 200 -
+INFO /home/python/.virtualenvs/HMHome/lib/python3.6/site-packages/werkzeug/_internal.py:88 127.0.0.1 - - [20/Mar/2019 00:35:20] "GET /favicon.ico HTTP/1.1" 200 -
+INFO /home/python/.virtualenvs/HMHome/lib/python3.6/site-packages/werkzeug/_internal.py:88 127.0.0.1 - - [20/Mar/2019 00:35:22] "GET /myhouse.html HTTP/1.1" 304 -
+INFO /home/python/.virtualenvs/HMHome/lib/python3.6/site-packages/werkzeug/_internal.py:88 127.0.0.1 - - [20/Mar/2019 00:35:22] "GET /api/v1.0/user/auth HTTP/1.1" 200 -
+INFO /home/python/.virtualenvs/HMHome/lib/python3.6/site-packages/werkzeug/_internal.py:88 127.0.0.1 - - [20/Mar/2019 00:35:22] "GET /favicon.ico HTTP/1.1" 200 -
+INFO /home/python/.virtualenvs/HMHome/lib/python3.6/site-packages/werkzeug/_internal.py:88 127.0.0.1 - - [20/Mar/2019 00:35:22] "GET /api/v1.0/user/houses HTTP/1.1" 200 -
+INFO /home/python/.virtualenvs/HMHome/lib/python3.6/site-packages/werkzeug/_internal.py:88 127.0.0.1 - - [20/Mar/2019 00:35:29] "GET /api/v1.0/user HTTP/1.1" 200 -
+INFO /home/python/.virtualenvs/HMHome/lib/python3.6/site-packages/werkzeug/_internal.py:88 127.0.0.1 - - [20/Mar/2019 00:35:32] "GET /api/v1.0/user/auth HTTP/1.1" 200 -
+INFO /home/python/.virtualenvs/HMHome/lib/python3.6/site-packages/werkzeug/_internal.py:88 127.0.0.1 - - [20/Mar/2019 00:35:32] "GET /api/v1.0/user/houses HTTP/1.1" 200 -
+INFO /home/python/.virtualenvs/HMHome/lib/python3.6/site-packages/werkzeug/_internal.py:88 127.0.0.1 - - [20/Mar/2019 00:36:37] "GET /api/v1.0/user/houses HTTP/1.1" 200 -
+INFO /home/python/.virtualenvs/HMHome/lib/python3.6/site-packages/werkzeug/_internal.py:88 127.0.0.1 - - [20/Mar/2019 00:36:55] "GET /api/v1.0/user/myHouses HTTP/1.1" 404 -
+INFO /home/python/.virtualenvs/HMHome/lib/python3.6/site-packages/werkzeug/_internal.py:88 127.0.0.1 - - [20/Mar/2019 00:37:17] "GET /api/v1.0/user/myhouse.html HTTP/1.1" 404 -
+INFO /home/python/.virtualenvs/HMHome/lib/python3.6/site-packages/werkzeug/_internal.py:88 127.0.0.1 - - [20/Mar/2019 00:38:00] "GET /api/v1.0/user/auth HTTP/1.1" 200 -
+INFO /home/python/.virtualenvs/HMHome/lib/python3.6/site-packages/werkzeug/_internal.py:88 127.0.0.1 - - [20/Mar/2019 00:38:00] "GET /api/v1.0/user/houses HTTP/1.1" 200 -
+INFO /home/python/.virtualenvs/HMHome/lib/python3.6/site-packages/werkzeug/_internal.py:88 127.0.0.1 - - [20/Mar/2019 00:38:14] "GET /detail.html?id=1 HTTP/1.1" 200 -
+INFO /home/python/.virtualenvs/HMHome/lib/python3.6/site-packages/werkzeug/_internal.py:88 127.0.0.1 - - [20/Mar/2019 00:38:14] "GET /static/css/ihome/detail.css HTTP/1.1" 200 -
+INFO /home/python/.virtualenvs/HMHome/lib/python3.6/site-packages/werkzeug/_internal.py:88 127.0.0.1 - - [20/Mar/2019 00:38:14] "GET /static/js/ihome/detail.js HTTP/1.1" 200 -
+INFO /home/python/.virtualenvs/HMHome/lib/python3.6/site-packages/werkzeug/_internal.py:88 127.0.0.1 - - [20/Mar/2019 00:38:14] "GET /api/v1.0/houses/1 HTTP/1.1" 500 -
+INFO /home/python/.virtualenvs/HMHome/lib/python3.6/site-packages/werkzeug/_internal.py:88 127.0.0.1 - - [20/Mar/2019 00:38:16] "GET /api/v1.0/user/houses HTTP/1.1" 200 -
+INFO /home/python/.virtualenvs/HMHome/lib/python3.6/site-packages/werkzeug/_internal.py:88  * Detected change in '/home/python/Desktop/info/ihome/modules/api/house.py', reloading
+INFO /home/python/.virtualenvs/HMHome/lib/python3.6/site-packages/werkzeug/_internal.py:88  * Restarting with stat
+WARNING /home/python/.virtualenvs/HMHome/lib/python3.6/site-packages/werkzeug/_internal.py:88  * Debugger is active!
+INFO /home/python/.virtualenvs/HMHome/lib/python3.6/site-packages/werkzeug/_internal.py:88  * Debugger PIN: 378-849-475
+INFO /home/python/.virtualenvs/HMHome/lib/python3.6/site-packages/werkzeug/_internal.py:88 127.0.0.1 - - [20/Mar/2019 00:38:52] "GET /myhouse.html HTTP/1.1" 304 -
+INFO /home/python/.virtualenvs/HMHome/lib/python3.6/site-packages/werkzeug/_internal.py:88 127.0.0.1 - - [20/Mar/2019 00:38:53] "GET /api/v1.0/user/auth HTTP/1.1" 200 -
+INFO /home/python/.virtualenvs/HMHome/lib/python3.6/site-packages/werkzeug/_internal.py:88 127.0.0.1 - - [20/Mar/2019 00:38:53] "GET /favicon.ico HTTP/1.1" 200 -
+INFO /home/python/.virtualenvs/HMHome/lib/python3.6/site-packages/werkzeug/_internal.py:88 127.0.0.1 - - [20/Mar/2019 00:38:53] "GET /api/v1.0/user/houses HTTP/1.1" 500 -
+INFO /home/python/.virtualenvs/HMHome/lib/python3.6/site-packages/werkzeug/_internal.py:88 127.0.0.1 - - [20/Mar/2019 00:38:53] "GET /myhouse.html HTTP/1.1" 304 -
+INFO /home/python/.virtualenvs/HMHome/lib/python3.6/site-packages/werkzeug/_internal.py:88 127.0.0.1 - - [20/Mar/2019 00:38:53] "GET /api/v1.0/user/auth HTTP/1.1" 200 -
+INFO /home/python/.virtualenvs/HMHome/lib/python3.6/site-packages/werkzeug/_internal.py:88 127.0.0.1 - - [20/Mar/2019 00:38:53] "GET /favicon.ico HTTP/1.1" 200 -
+INFO /home/python/.virtualenvs/HMHome/lib/python3.6/site-packages/werkzeug/_internal.py:88 127.0.0.1 - - [20/Mar/2019 00:38:53] "GET /api/v1.0/user/houses HTTP/1.1" 500 -
+INFO /home/python/.virtualenvs/HMHome/lib/python3.6/site-packages/werkzeug/_internal.py:88 127.0.0.1 - - [20/Mar/2019 00:38:54] "GET /myhouse.html HTTP/1.1" 304 -
+INFO /home/python/.virtualenvs/HMHome/lib/python3.6/site-packages/werkzeug/_internal.py:88 127.0.0.1 - - [20/Mar/2019 00:38:54] "GET /api/v1.0/user/auth HTTP/1.1" 200 -
+INFO /home/python/.virtualenvs/HMHome/lib/python3.6/site-packages/werkzeug/_internal.py:88 127.0.0.1 - - [20/Mar/2019 00:38:54] "GET /favicon.ico HTTP/1.1" 200 -
+INFO /home/python/.virtualenvs/HMHome/lib/python3.6/site-packages/werkzeug/_internal.py:88 127.0.0.1 - - [20/Mar/2019 00:38:54] "GET /api/v1.0/user/houses HTTP/1.1" 500 -
+INFO /home/python/.virtualenvs/HMHome/lib/python3.6/site-packages/werkzeug/_internal.py:88 127.0.0.1 - - [20/Mar/2019 00:38:54] "GET /myhouse.html HTTP/1.1" 304 -
+INFO /home/python/.virtualenvs/HMHome/lib/python3.6/site-packages/werkzeug/_internal.py:88 127.0.0.1 - - [20/Mar/2019 00:38:54] "GET /api/v1.0/user/auth HTTP/1.1" 200 -
+INFO /home/python/.virtualenvs/HMHome/lib/python3.6/site-packages/werkzeug/_internal.py:88 127.0.0.1 - - [20/Mar/2019 00:38:54] "GET /favicon.ico HTTP/1.1" 200 -
+INFO /home/python/.virtualenvs/HMHome/lib/python3.6/site-packages/werkzeug/_internal.py:88 127.0.0.1 - - [20/Mar/2019 00:38:54] "GET /api/v1.0/user/houses HTTP/1.1" 500 -
+INFO /home/python/.virtualenvs/HMHome/lib/python3.6/site-packages/werkzeug/_internal.py:88 127.0.0.1 - - [20/Mar/2019 00:38:54] "GET /myhouse.html HTTP/1.1" 304 -
+INFO /home/python/.virtualenvs/HMHome/lib/python3.6/site-packages/werkzeug/_internal.py:88 127.0.0.1 - - [20/Mar/2019 00:38:54] "GET /api/v1.0/user/auth HTTP/1.1" 200 -
+INFO /home/python/.virtualenvs/HMHome/lib/python3.6/site-packages/werkzeug/_internal.py:88 127.0.0.1 - - [20/Mar/2019 00:38:54] "GET /favicon.ico HTTP/1.1" 200 -
+INFO /home/python/.virtualenvs/HMHome/lib/python3.6/site-packages/werkzeug/_internal.py:88 127.0.0.1 - - [20/Mar/2019 00:38:54] "GET /api/v1.0/user/houses HTTP/1.1" 500 -
+INFO /home/python/.virtualenvs/HMHome/lib/python3.6/site-packages/werkzeug/_internal.py:88 127.0.0.1 - - [20/Mar/2019 00:38:54] "GET /myhouse.html HTTP/1.1" 304 -
+INFO /home/python/.virtualenvs/HMHome/lib/python3.6/site-packages/werkzeug/_internal.py:88 127.0.0.1 - - [20/Mar/2019 00:38:54] "GET /api/v1.0/user/auth HTTP/1.1" 200 -
+INFO /home/python/.virtualenvs/HMHome/lib/python3.6/site-packages/werkzeug/_internal.py:88 127.0.0.1 - - [20/Mar/2019 00:38:54] "GET /favicon.ico HTTP/1.1" 200 -
+INFO /home/python/.virtualenvs/HMHome/lib/python3.6/site-packages/werkzeug/_internal.py:88 127.0.0.1 - - [20/Mar/2019 00:38:54] "GET /api/v1.0/user/houses HTTP/1.1" 500 -
+INFO /home/python/.virtualenvs/HMHome/lib/python3.6/site-packages/werkzeug/_internal.py:88  * Detected change in '/home/python/Desktop/info/ihome/modules/api/house.py', reloading
+INFO /home/python/.virtualenvs/HMHome/lib/python3.6/site-packages/werkzeug/_internal.py:88  * Restarting with stat
+WARNING /home/python/.virtualenvs/HMHome/lib/python3.6/site-packages/werkzeug/_internal.py:88  * Debugger is active!
+INFO /home/python/.virtualenvs/HMHome/lib/python3.6/site-packages/werkzeug/_internal.py:88  * Debugger PIN: 378-849-475
+INFO /home/python/.virtualenvs/HMHome/lib/python3.6/site-packages/werkzeug/_internal.py:88  * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+INFO /home/python/.virtualenvs/HMHome/lib/python3.6/site-packages/werkzeug/_internal.py:88  * Restarting with stat
+WARNING /home/python/.virtualenvs/HMHome/lib/python3.6/site-packages/werkzeug/_internal.py:88  * Debugger is active!
+INFO /home/python/.virtualenvs/HMHome/lib/python3.6/site-packages/werkzeug/_internal.py:88  * Debugger PIN: 378-849-475
+INFO /home/python/.virtualenvs/HMHome/lib/python3.6/site-packages/werkzeug/_internal.py:88 127.0.0.1 - - [20/Mar/2019 08:50:15] "GET /myhouse.html HTTP/1.1" 304 -
+INFO /home/python/.virtualenvs/HMHome/lib/python3.6/site-packages/werkzeug/_internal.py:88 127.0.0.1 - - [20/Mar/2019 08:50:15] "GET /api/v1.0/user/auth HTTP/1.1" 200 -
+INFO /home/python/.virtualenvs/HMHome/lib/python3.6/site-packages/werkzeug/_internal.py:88 127.0.0.1 - - [20/Mar/2019 08:50:15] "GET /favicon.ico HTTP/1.1" 200 -
+INFO /home/python/.virtualenvs/HMHome/lib/python3.6/site-packages/werkzeug/_internal.py:88 127.0.0.1 - - [20/Mar/2019 08:50:15] "GET /api/v1.0/user/houses HTTP/1.1" 200 -
+INFO /home/python/.virtualenvs/HMHome/lib/python3.6/site-packages/werkzeug/_internal.py:88  * Detected change in '/home/python/Desktop/info/ihome/modules/api/house.py', reloading
+INFO /home/python/.virtualenvs/HMHome/lib/python3.6/site-packages/werkzeug/_internal.py:88  * Restarting with stat
+WARNING /home/python/.virtualenvs/HMHome/lib/python3.6/site-packages/werkzeug/_internal.py:88  * Debugger is active!
+INFO /home/python/.virtualenvs/HMHome/lib/python3.6/site-packages/werkzeug/_internal.py:88  * Debugger PIN: 378-849-475
+INFO /home/python/.virtualenvs/HMHome/lib/python3.6/site-packages/werkzeug/_internal.py:88  * Detected change in '/home/python/Desktop/info/ihome/modules/api/house.py', reloading
+INFO /home/python/.virtualenvs/HMHome/lib/python3.6/site-packages/werkzeug/_internal.py:88  * Restarting with stat
+WARNING /home/python/.virtualenvs/HMHome/lib/python3.6/site-packages/werkzeug/_internal.py:88  * Debugger is active!
+INFO /home/python/.virtualenvs/HMHome/lib/python3.6/site-packages/werkzeug/_internal.py:88  * Debugger PIN: 378-849-475
+INFO /home/python/.virtualenvs/HMHome/lib/python3.6/site-packages/werkzeug/_internal.py:88  * Detected change in '/home/python/Desktop/info/ihome/modules/api/house.py', reloading
+INFO /home/python/.virtualenvs/HMHome/lib/python3.6/site-packages/werkzeug/_internal.py:88  * Restarting with stat
+INFO /home/python/.virtualenvs/HMHome/lib/python3.6/site-packages/werkzeug/_internal.py:88  * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+INFO /home/python/.virtualenvs/HMHome/lib/python3.6/site-packages/werkzeug/_internal.py:88  * Restarting with stat
+WARNING /home/python/.virtualenvs/HMHome/lib/python3.6/site-packages/werkzeug/_internal.py:88  * Debugger is active!
+INFO /home/python/.virtualenvs/HMHome/lib/python3.6/site-packages/werkzeug/_internal.py:88  * Debugger PIN: 378-849-475
+INFO /home/python/.virtualenvs/HMHome/lib/python3.6/site-packages/werkzeug/_internal.py:88 127.0.0.1 - - [20/Mar/2019 09:33:39] "GET /api/v1.0/session HTTP/1.1" 200 -
+INFO /home/python/.virtualenvs/HMHome/lib/python3.6/site-packages/werkzeug/_internal.py:88 127.0.0.1 - - [20/Mar/2019 09:33:39] "GET /api/v1.0/houses/index HTTP/1.1" 200 -
+INFO /home/python/.virtualenvs/HMHome/lib/python3.6/site-packages/werkzeug/_internal.py:88 127.0.0.1 - - [20/Mar/2019 09:33:39] "GET /api/v1.0/areas HTTP/1.1" 500 -
+INFO /home/python/.virtualenvs/HMHome/lib/python3.6/site-packages/werkzeug/_internal.py:88 127.0.0.1 - - [20/Mar/2019 09:33:43] "GET /api/v1.0/user HTTP/1.1" 200 -
+INFO /home/python/.virtualenvs/HMHome/lib/python3.6/site-packages/werkzeug/_internal.py:88 127.0.0.1 - - [20/Mar/2019 09:33:45] "GET /api/v1.0/user/auth HTTP/1.1" 200 -
+INFO /home/python/.virtualenvs/HMHome/lib/python3.6/site-packages/werkzeug/_internal.py:88 127.0.0.1 - - [20/Mar/2019 09:33:45] "GET /api/v1.0/user/houses HTTP/1.1" 200 -
+INFO /home/python/.virtualenvs/HMHome/lib/python3.6/site-packages/werkzeug/_internal.py:88 127.0.0.1 - - [20/Mar/2019 09:33:48] "GET /myhouse.html HTTP/1.1" 304 -
+INFO /home/python/.virtualenvs/HMHome/lib/python3.6/site-packages/werkzeug/_internal.py:88 127.0.0.1 - - [20/Mar/2019 09:33:48] "GET /api/v1.0/user/auth HTTP/1.1" 200 -
+INFO /home/python/.virtualenvs/HMHome/lib/python3.6/site-packages/werkzeug/_internal.py:88 127.0.0.1 - - [20/Mar/2019 09:33:48] "GET /api/v1.0/user/houses HTTP/1.1" 200 -
+INFO /home/python/.virtualenvs/HMHome/lib/python3.6/site-packages/werkzeug/_internal.py:88 127.0.0.1 - - [20/Mar/2019 09:33:48] "GET /favicon.ico HTTP/1.1" 200 -
+INFO /home/python/.virtualenvs/HMHome/lib/python3.6/site-packages/werkzeug/_internal.py:88 127.0.0.1 - - [20/Mar/2019 09:33:56] "GET /newhouse.html HTTP/1.1" 200 -
+INFO /home/python/.virtualenvs/HMHome/lib/python3.6/site-packages/werkzeug/_internal.py:88 127.0.0.1 - - [20/Mar/2019 09:33:56] "GET /static/css/ihome/newhouse.css HTTP/1.1" 200 -
+INFO /home/python/.virtualenvs/HMHome/lib/python3.6/site-packages/werkzeug/_internal.py:88 127.0.0.1 - - [20/Mar/2019 09:33:56] "GET /static/js/ihome/newhouse.js?v=3 HTTP/1.1" 200 -
+INFO /home/python/.virtualenvs/HMHome/lib/python3.6/site-packages/werkzeug/_internal.py:88 127.0.0.1 - - [20/Mar/2019 09:33:56] "GET /api/v1.0/areas HTTP/1.1" 500 -
+INFO /home/python/.virtualenvs/HMHome/lib/python3.6/site-packages/werkzeug/_internal.py:88 127.0.0.1 - - [20/Mar/2019 09:35:55] "GET /api/v1.0/houses HTTP/1.1" 500 -
+INFO /home/python/.virtualenvs/HMHome/lib/python3.6/site-packages/werkzeug/_internal.py:88 127.0.0.1 - - [20/Mar/2019 09:35:55] "GET /api/v1.0/houses?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1" 200 -
+INFO /home/python/.virtualenvs/HMHome/lib/python3.6/site-packages/werkzeug/_internal.py:88 127.0.0.1 - - [20/Mar/2019 09:35:55] "GET /api/v1.0/houses?__debugger__=yes&cmd=resource&f=jquery.js HTTP/1.1" 200 -
+INFO /home/python/.virtualenvs/HMHome/lib/python3.6/site-packages/werkzeug/_internal.py:88 127.0.0.1 - - [20/Mar/2019 09:35:55] "GET /api/v1.0/houses?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1" 200 -
+INFO /home/python/.virtualenvs/HMHome/lib/python3.6/site-packages/werkzeug/_internal.py:88 127.0.0.1 - - [20/Mar/2019 09:35:55] "GET /api/v1.0/houses?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1" 200 -
+INFO /home/python/.virtualenvs/HMHome/lib/python3.6/site-packages/werkzeug/_internal.py:88 127.0.0.1 - - [20/Mar/2019 09:35:55] "GET /api/v1.0/houses?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1" 200 -
+INFO /home/python/.virtualenvs/HMHome/lib/python3.6/site-packages/werkzeug/_internal.py:88  * Detected change in '/home/python/Desktop/info/ihome/modules/api/house.py', reloading
+INFO /home/python/.virtualenvs/HMHome/lib/python3.6/site-packages/werkzeug/_internal.py:88  * Restarting with stat
+WARNING /home/python/.virtualenvs/HMHome/lib/python3.6/site-packages/werkzeug/_internal.py:88  * Debugger is active!
+INFO /home/python/.virtualenvs/HMHome/lib/python3.6/site-packages/werkzeug/_internal.py:88  * Debugger PIN: 378-849-475
+INFO /home/python/.virtualenvs/HMHome/lib/python3.6/site-packages/werkzeug/_internal.py:88 127.0.0.1 - - [20/Mar/2019 09:36:47] "GET /newhouse.html HTTP/1.1" 304 -
+INFO /home/python/.virtualenvs/HMHome/lib/python3.6/site-packages/werkzeug/_internal.py:88 127.0.0.1 - - [20/Mar/2019 09:36:47] "GET /api/v1.0/areas HTTP/1.1" 500 -
+INFO /home/python/.virtualenvs/HMHome/lib/python3.6/site-packages/werkzeug/_internal.py:88 127.0.0.1 - - [20/Mar/2019 09:36:47] "GET /favicon.ico HTTP/1.1" 200 -
+INFO /home/python/.virtualenvs/HMHome/lib/python3.6/site-packages/werkzeug/_internal.py:88 127.0.0.1 - - [20/Mar/2019 09:36:48] "GET /newhouse.html HTTP/1.1" 304 -
+INFO /home/python/.virtualenvs/HMHome/lib/python3.6/site-packages/werkzeug/_internal.py:88 127.0.0.1 - - [20/Mar/2019 09:36:48] "GET /api/v1.0/areas HTTP/1.1" 500 -
+INFO /home/python/.virtualenvs/HMHome/lib/python3.6/site-packages/werkzeug/_internal.py:88 127.0.0.1 - - [20/Mar/2019 09:36:48] "GET /favicon.ico HTTP/1.1" 200 -
+INFO /home/python/.virtualenvs/HMHome/lib/python3.6/site-packages/werkzeug/_internal.py:88 127.0.0.1 - - [20/Mar/2019 09:36:48] "GET /newhouse.html HTTP/1.1" 304 -
+INFO /home/python/.virtualenvs/HMHome/lib/python3.6/site-packages/werkzeug/_internal.py:88 127.0.0.1 - - [20/Mar/2019 09:36:48] "GET /api/v1.0/areas HTTP/1.1" 500 -
+INFO /home/python/.virtualenvs/HMHome/lib/python3.6/site-packages/werkzeug/_internal.py:88 127.0.0.1 - - [20/Mar/2019 09:36:48] "GET /favicon.ico HTTP/1.1" 200 -
+INFO /home/python/.virtualenvs/HMHome/lib/python3.6/site-packages/werkzeug/_internal.py:88 127.0.0.1 - - [20/Mar/2019 09:36:49] "GET /newhouse.html HTTP/1.1" 304 -
+INFO /home/python/.virtualenvs/HMHome/lib/python3.6/site-packages/werkzeug/_internal.py:88 127.0.0.1 - - [20/Mar/2019 09:36:49] "GET /api/v1.0/areas HTTP/1.1" 500 -
+INFO /home/python/.virtualenvs/HMHome/lib/python3.6/site-packages/werkzeug/_internal.py:88 127.0.0.1 - - [20/Mar/2019 09:36:49] "GET /favicon.ico HTTP/1.1" 200 -
+INFO /home/python/.virtualenvs/HMHome/lib/python3.6/site-packages/werkzeug/_internal.py:88  * Detected change in '/home/python/Desktop/info/ihome/modules/api/house.py', reloading
+INFO /home/python/.virtualenvs/HMHome/lib/python3.6/site-packages/werkzeug/_internal.py:88  * Restarting with stat
+WARNING /home/python/.virtualenvs/HMHome/lib/python3.6/site-packages/werkzeug/_internal.py:88  * Debugger is active!
+INFO /home/python/.virtualenvs/HMHome/lib/python3.6/site-packages/werkzeug/_internal.py:88  * Debugger PIN: 378-849-475
+INFO /home/python/.virtualenvs/HMHome/lib/python3.6/site-packages/werkzeug/_internal.py:88  * Detected change in '/home/python/Desktop/info/ihome/modules/api/house.py', reloading
+INFO /home/python/.virtualenvs/HMHome/lib/python3.6/site-packages/werkzeug/_internal.py:88  * Restarting with stat
+WARNING /home/python/.virtualenvs/HMHome/lib/python3.6/site-packages/werkzeug/_internal.py:88  * Debugger is active!
+INFO /home/python/.virtualenvs/HMHome/lib/python3.6/site-packages/werkzeug/_internal.py:88  * Debugger PIN: 378-849-475
+INFO /home/python/.virtualenvs/HMHome/lib/python3.6/site-packages/werkzeug/_internal.py:88  * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+INFO /home/python/.virtualenvs/HMHome/lib/python3.6/site-packages/werkzeug/_internal.py:88  * Restarting with stat
+WARNING /home/python/.virtualenvs/HMHome/lib/python3.6/site-packages/werkzeug/_internal.py:88  * Debugger is active!
+INFO /home/python/.virtualenvs/HMHome/lib/python3.6/site-packages/werkzeug/_internal.py:88  * Debugger PIN: 378-849-475
+INFO /home/python/.virtualenvs/HMHome/lib/python3.6/site-packages/werkzeug/_internal.py:88 127.0.0.1 - - [20/Mar/2019 10:03:27] "GET /api/v1.0/session HTTP/1.1" 200 -
+INFO /home/python/.virtualenvs/HMHome/lib/python3.6/site-packages/werkzeug/_internal.py:88 127.0.0.1 - - [20/Mar/2019 10:03:27] "GET /api/v1.0/houses/index HTTP/1.1" 500 -
+INFO /home/python/.virtualenvs/HMHome/lib/python3.6/site-packages/werkzeug/_internal.py:88 127.0.0.1 - - [20/Mar/2019 10:03:27] "GET /api/v1.0/areas HTTP/1.1" 200 -
+INFO /home/python/.virtualenvs/HMHome/lib/python3.6/site-packages/werkzeug/_internal.py:88 127.0.0.1 - - [20/Mar/2019 10:03:30] "GET /api/v1.0/user HTTP/1.1" 200 -
+INFO /home/python/.virtualenvs/HMHome/lib/python3.6/site-packages/werkzeug/_internal.py:88 127.0.0.1 - - [20/Mar/2019 10:03:36] "GET /api/v1.0/user/auth HTTP/1.1" 200 -
+INFO /home/python/.virtualenvs/HMHome/lib/python3.6/site-packages/werkzeug/_internal.py:88 127.0.0.1 - - [20/Mar/2019 10:03:36] "GET /api/v1.0/user/houses HTTP/1.1" 200 -
+INFO /home/python/.virtualenvs/HMHome/lib/python3.6/site-packages/werkzeug/_internal.py:88 127.0.0.1 - - [20/Mar/2019 10:03:40] "GET /api/v1.0/areas HTTP/1.1" 200 -
+INFO /home/python/.virtualenvs/HMHome/lib/python3.6/site-packages/werkzeug/_internal.py:88 127.0.0.1 - - [20/Mar/2019 10:04:00] "GET /api/v1.0/user/auth HTTP/1.1" 200 -
+INFO /home/python/.virtualenvs/HMHome/lib/python3.6/site-packages/werkzeug/_internal.py:88 127.0.0.1 - - [20/Mar/2019 10:04:00] "GET /api/v1.0/user/houses HTTP/1.1" 200 -
+INFO /home/python/.virtualenvs/HMHome/lib/python3.6/site-packages/werkzeug/_internal.py:88 127.0.0.1 - - [20/Mar/2019 10:04:03] "GET /api/v1.0/user HTTP/1.1" 200 -
+INFO /home/python/.virtualenvs/HMHome/lib/python3.6/site-packages/werkzeug/_internal.py:88 127.0.0.1 - - [20/Mar/2019 10:04:09] "GET /api/v1.0/session HTTP/1.1" 200 -
+INFO /home/python/.virtualenvs/HMHome/lib/python3.6/site-packages/werkzeug/_internal.py:88 127.0.0.1 - - [20/Mar/2019 10:04:09] "GET /api/v1.0/houses/index HTTP/1.1" 500 -
+INFO /home/python/.virtualenvs/HMHome/lib/python3.6/site-packages/werkzeug/_internal.py:88 127.0.0.1 - - [20/Mar/2019 10:04:09] "GET /api/v1.0/areas HTTP/1.1" 200 -
+INFO /home/python/.virtualenvs/HMHome/lib/python3.6/site-packages/werkzeug/_internal.py:88 127.0.0.1 - - [20/Mar/2019 10:04:12] "GET /api/v1.0/user HTTP/1.1" 200 -
+INFO /home/python/.virtualenvs/HMHome/lib/python3.6/site-packages/werkzeug/_internal.py:88 127.0.0.1 - - [20/Mar/2019 10:04:16] "GET /api/v1.0/user/auth HTTP/1.1" 200 -
+INFO /home/python/.virtualenvs/HMHome/lib/python3.6/site-packages/werkzeug/_internal.py:88 127.0.0.1 - - [20/Mar/2019 10:04:16] "GET /api/v1.0/user/houses HTTP/1.1" 200 -
+INFO /home/python/.virtualenvs/HMHome/lib/python3.6/site-packages/werkzeug/_internal.py:88 127.0.0.1 - - [20/Mar/2019 10:04:23] "GET /api/v1.0/areas HTTP/1.1" 200 -
+INFO /home/python/.virtualenvs/HMHome/lib/python3.6/site-packages/werkzeug/_internal.py:88  * Detected change in '/home/python/Desktop/info/ihome/modules/api/house.py', reloading
+INFO /home/python/.virtualenvs/HMHome/lib/python3.6/site-packages/werkzeug/_internal.py:88  * Restarting with stat
+WARNING /home/python/.virtualenvs/HMHome/lib/python3.6/site-packages/werkzeug/_internal.py:88  * Debugger is active!
+INFO /home/python/.virtualenvs/HMHome/lib/python3.6/site-packages/werkzeug/_internal.py:88  * Debugger PIN: 378-849-475
+INFO /home/python/.virtualenvs/HMHome/lib/python3.6/site-packages/werkzeug/_internal.py:88 127.0.0.1 - - [20/Mar/2019 10:06:28] "GET /newhouse.html HTTP/1.1" 304 -
+INFO /home/python/.virtualenvs/HMHome/lib/python3.6/site-packages/werkzeug/_internal.py:88 127.0.0.1 - - [20/Mar/2019 10:06:28] "GET /api/v1.0/areas HTTP/1.1" 200 -
+INFO /home/python/.virtualenvs/HMHome/lib/python3.6/site-packages/werkzeug/_internal.py:88 127.0.0.1 - - [20/Mar/2019 10:06:28] "GET /favicon.ico HTTP/1.1" 200 -
+INFO /home/python/.virtualenvs/HMHome/lib/python3.6/site-packages/werkzeug/_internal.py:88 127.0.0.1 - - [20/Mar/2019 10:06:30] "GET /newhouse.html HTTP/1.1" 304 -
+INFO /home/python/.virtualenvs/HMHome/lib/python3.6/site-packages/werkzeug/_internal.py:88 127.0.0.1 - - [20/Mar/2019 10:06:30] "GET /api/v1.0/areas HTTP/1.1" 200 -
+INFO /home/python/.virtualenvs/HMHome/lib/python3.6/site-packages/werkzeug/_internal.py:88 127.0.0.1 - - [20/Mar/2019 10:06:30] "GET /favicon.ico HTTP/1.1" 200 -
+INFO /home/python/.virtualenvs/HMHome/lib/python3.6/site-packages/werkzeug/_internal.py:88 127.0.0.1 - - [20/Mar/2019 10:06:37] "GET /api/v1.0/areas HTTP/1.1" 200 -
+INFO /home/python/.virtualenvs/HMHome/lib/python3.6/site-packages/werkzeug/_internal.py:88 127.0.0.1 - - [20/Mar/2019 10:08:20] "GET /api/v1.0/user/houses HTTP/1.1" 200 -
+INFO /home/python/.virtualenvs/HMHome/lib/python3.6/site-packages/werkzeug/_internal.py:88 127.0.0.1 - - [20/Mar/2019 10:08:25] "GET /api/v1.0/areas HTTP/1.1" 200 -
+INFO /home/python/.virtualenvs/HMHome/lib/python3.6/site-packages/werkzeug/_internal.py:88 127.0.0.1 - - [20/Mar/2019 10:09:31] "POST /api/v1.0/houses HTTP/1.1" 500 -
+INFO /home/python/.virtualenvs/HMHome/lib/python3.6/site-packages/werkzeug/_internal.py:88 127.0.0.1 - - [20/Mar/2019 10:09:34] "POST /api/v1.0/houses HTTP/1.1" 500 -
+INFO /home/python/.virtualenvs/HMHome/lib/python3.6/site-packages/werkzeug/_internal.py:88 127.0.0.1 - - [20/Mar/2019 10:09:34] "POST /api/v1.0/houses HTTP/1.1" 500 -
+INFO /home/python/.virtualenvs/HMHome/lib/python3.6/site-packages/werkzeug/_internal.py:88 127.0.0.1 - - [20/Mar/2019 10:09:34] "POST /api/v1.0/houses HTTP/1.1" 500 -
+INFO /home/python/.virtualenvs/HMHome/lib/python3.6/site-packages/werkzeug/_internal.py:88 127.0.0.1 - - [20/Mar/2019 10:09:34] "POST /api/v1.0/houses HTTP/1.1" 500 -
+INFO /home/python/.virtualenvs/HMHome/lib/python3.6/site-packages/werkzeug/_internal.py:88 127.0.0.1 - - [20/Mar/2019 10:09:35] "POST /api/v1.0/houses HTTP/1.1" 500 -
+INFO /home/python/.virtualenvs/HMHome/lib/python3.6/site-packages/werkzeug/_internal.py:88 127.0.0.1 - - [20/Mar/2019 10:09:35] "POST /api/v1.0/houses HTTP/1.1" 500 -
+INFO /home/python/.virtualenvs/HMHome/lib/python3.6/site-packages/werkzeug/_internal.py:88 127.0.0.1 - - [20/Mar/2019 10:09:35] "POST /api/v1.0/houses HTTP/1.1" 500 -
+INFO /home/python/.virtualenvs/HMHome/lib/python3.6/site-packages/werkzeug/_internal.py:88 127.0.0.1 - - [20/Mar/2019 10:09:35] "POST /api/v1.0/houses HTTP/1.1" 500 -
+INFO /home/python/.virtualenvs/HMHome/lib/python3.6/site-packages/werkzeug/_internal.py:88 127.0.0.1 - - [20/Mar/2019 10:09:50] "POST /api/v1.0/houses HTTP/1.1" 500 -
+INFO /home/python/.virtualenvs/HMHome/lib/python3.6/site-packages/werkzeug/_internal.py:88 127.0.0.1 - - [20/Mar/2019 10:09:50] "POST /api/v1.0/houses HTTP/1.1" 500 -
+INFO /home/python/.virtualenvs/HMHome/lib/python3.6/site-packages/werkzeug/_internal.py:88 127.0.0.1 - - [20/Mar/2019 10:09:50] "POST /api/v1.0/houses HTTP/1.1" 500 -
+INFO /home/python/.virtualenvs/HMHome/lib/python3.6/site-packages/werkzeug/_internal.py:88 127.0.0.1 - - [20/Mar/2019 10:09:50] "POST /api/v1.0/houses HTTP/1.1" 500 -
+INFO /home/python/.virtualenvs/HMHome/lib/python3.6/site-packages/werkzeug/_internal.py:88 127.0.0.1 - - [20/Mar/2019 10:09:51] "POST /api/v1.0/houses HTTP/1.1" 500 -
+INFO /home/python/.virtualenvs/HMHome/lib/python3.6/site-packages/werkzeug/_internal.py:88 127.0.0.1 - - [20/Mar/2019 10:09:56] "GET /static/plugins/bootstrap/css/bootstrap.min.css.map HTTP/1.1" 200 -
+INFO /home/python/.virtualenvs/HMHome/lib/python3.6/site-packages/werkzeug/_internal.py:88 127.0.0.1 - - [20/Mar/2019 10:10:08] "POST /api/v1.0/houses HTTP/1.1" 500 -
+INFO /home/python/.virtualenvs/HMHome/lib/python3.6/site-packages/werkzeug/_internal.py:88 127.0.0.1 - - [20/Mar/2019 10:10:08] "POST /api/v1.0/houses HTTP/1.1" 500 -
+INFO /home/python/.virtualenvs/HMHome/lib/python3.6/site-packages/werkzeug/_internal.py:88 127.0.0.1 - - [20/Mar/2019 10:10:08] "POST /api/v1.0/houses HTTP/1.1" 500 -
+INFO /home/python/.virtualenvs/HMHome/lib/python3.6/site-packages/werkzeug/_internal.py:88  * Detected change in '/home/python/Desktop/info/ihome/modules/api/house.py', reloading
+INFO /home/python/.virtualenvs/HMHome/lib/python3.6/site-packages/werkzeug/_internal.py:88  * Restarting with stat
+WARNING /home/python/.virtualenvs/HMHome/lib/python3.6/site-packages/werkzeug/_internal.py:88  * Debugger is active!
+INFO /home/python/.virtualenvs/HMHome/lib/python3.6/site-packages/werkzeug/_internal.py:88  * Debugger PIN: 378-849-475
+INFO /home/python/.virtualenvs/HMHome/lib/python3.6/site-packages/werkzeug/_internal.py:88  * Detected change in '/home/python/Desktop/info/ihome/modules/api/house.py', reloading
+INFO /home/python/.virtualenvs/HMHome/lib/python3.6/site-packages/werkzeug/_internal.py:88  * Restarting with stat
+WARNING /home/python/.virtualenvs/HMHome/lib/python3.6/site-packages/werkzeug/_internal.py:88  * Debugger is active!
+INFO /home/python/.virtualenvs/HMHome/lib/python3.6/site-packages/werkzeug/_internal.py:88  * Debugger PIN: 378-849-475
+INFO /home/python/.virtualenvs/HMHome/lib/python3.6/site-packages/werkzeug/_internal.py:88 127.0.0.1 - - [20/Mar/2019 10:11:31] "GET /newhouse.html HTTP/1.1" 304 -
+INFO /home/python/.virtualenvs/HMHome/lib/python3.6/site-packages/werkzeug/_internal.py:88 127.0.0.1 - - [20/Mar/2019 10:11:31] "GET /api/v1.0/areas HTTP/1.1" 200 -
+INFO /home/python/.virtualenvs/HMHome/lib/python3.6/site-packages/werkzeug/_internal.py:88 127.0.0.1 - - [20/Mar/2019 10:11:31] "GET /favicon.ico HTTP/1.1" 200 -
+INFO /home/python/.virtualenvs/HMHome/lib/python3.6/site-packages/werkzeug/_internal.py:88 127.0.0.1 - - [20/Mar/2019 10:14:32] "GET /api/v1.0/user/houses HTTP/1.1" 200 -
+INFO /home/python/.virtualenvs/HMHome/lib/python3.6/site-packages/werkzeug/_internal.py:88 127.0.0.1 - - [20/Mar/2019 10:14:36] "GET /api/v1.0/houses/1 HTTP/1.1" 200 -
+INFO /home/python/.virtualenvs/HMHome/lib/python3.6/site-packages/werkzeug/_internal.py:88 127.0.0.1 - - [20/Mar/2019 10:14:36] "GET /static/images/houseicon_sprite.png HTTP/1.1" 200 -
+INFO /home/python/.virtualenvs/HMHome/lib/python3.6/site-packages/werkzeug/_internal.py:88 127.0.0.1 - - [20/Mar/2019 10:14:44] "GET /api/v1.0/user/houses HTTP/1.1" 200 -
+INFO /home/python/.virtualenvs/HMHome/lib/python3.6/site-packages/werkzeug/_internal.py:88 127.0.0.1 - - [20/Mar/2019 10:15:20] "GET /api/v1.0/houses/1 HTTP/1.1" 200 -
+INFO /home/python/.virtualenvs/HMHome/lib/python3.6/site-packages/werkzeug/_internal.py:88 127.0.0.1 - - [20/Mar/2019 10:15:28] "GET /api/v1.0/user/houses HTTP/1.1" 200 -
+INFO /home/python/.virtualenvs/HMHome/lib/python3.6/site-packages/werkzeug/_internal.py:88 127.0.0.1 - - [20/Mar/2019 10:15:32] "GET /api/v1.0/areas HTTP/1.1" 200 -
+INFO /home/python/.virtualenvs/HMHome/lib/python3.6/site-packages/werkzeug/_internal.py:88 127.0.0.1 - - [20/Mar/2019 10:46:10] "GET /newhouse.html HTTP/1.1" 304 -
+INFO /home/python/.virtualenvs/HMHome/lib/python3.6/site-packages/werkzeug/_internal.py:88 127.0.0.1 - - [20/Mar/2019 10:46:11] "GET /api/v1.0/areas HTTP/1.1" 200 -
+INFO /home/python/.virtualenvs/HMHome/lib/python3.6/site-packages/werkzeug/_internal.py:88 127.0.0.1 - - [20/Mar/2019 10:46:11] "GET /favicon.ico HTTP/1.1" 200 -
+INFO /home/python/.virtualenvs/HMHome/lib/python3.6/site-packages/werkzeug/_internal.py:88  * Detected change in '/home/python/Desktop/info/ihome/modules/api/house.py', reloading
+INFO /home/python/.virtualenvs/HMHome/lib/python3.6/site-packages/werkzeug/_internal.py:88  * Restarting with stat
+WARNING /home/python/.virtualenvs/HMHome/lib/python3.6/site-packages/werkzeug/_internal.py:88  * Debugger is active!
+INFO /home/python/.virtualenvs/HMHome/lib/python3.6/site-packages/werkzeug/_internal.py:88  * Debugger PIN: 378-849-475

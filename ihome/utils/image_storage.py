@@ -1,6 +1,6 @@
 # 七牛上传文件的工具类
 access_key = "G0T0OXtgaqGajV77S56w-HRFZoF07cEBY8h8BU6Z"
-secret_key= "YGbI2CND20l9KRjwJkL5LB7h7gWKwhwIYiPqkxBA"
+secret_key = "YGbI2CND20l9KRjwJkL5LB7h7gWKwhwIYiPqkxBA"
 bucket_name = "information"  # 存储空间名称
 
 

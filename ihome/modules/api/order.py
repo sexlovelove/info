@@ -139,4 +139,48 @@ def order_comment():
     3. 修改模型
     :return:
     """
-    pass
+    # 1.获取参数(user_id:当前登录的用户对象 comment: 评论对象)
+    param_dict = request.json
+    comment = param_dict.get("comment")
+    user_id = g.user_id
+    # 2.校验参数
+    # 非空判断
+    if not comment:
+        return jsonify(errno=RET.PARAMERR, errmsg="请输入评论内容")
+
+    # 通过订单id查询出订单模型
+    # 确保用户只能评价自己的订单并且订单处于待评价状态
+    try:
+        order = Order.query.filter(Order.id == order_id, Order.status == "WAIT_COMMENT").first()
+        house = order.house
+    except Exception as e:
+        current_app.logger.error(e)
+        return jsonify(errno=RET.DBERR, errmsg="查询订单数据错误")
+
+    # 判断该订单是否存在
+    if not all([order, house]):
+        return jsonify(errno=RET.NODATA, errmsg="不存在该订单")
+
+    # 3.修改模型
+    # 将订单状态设置为完成
+    order.status = "COMPLETE"
+    # 保存订单的评价信息
+    order.comment = comment
+    # 将房屋的订单完成数量加1
+    house.order_count += 1
+
+    # 保存数据
+    try:
+        db.session.commit()
+    except Exception as e:
+        current_app.logger.error(e)
+        db.session.rollback()
+        return jsonify(errno=RET.DBERR, errmsg="保存数据失败")
+
+    # 删除该房屋的redis缓存
+    try:
+        sr.delete("house_info_%s" % house.id)
+    except Exception as e:
+        current_app.logger.error(e)
+
+    return jsonify(errno=RET.OK, errmsg="OK")

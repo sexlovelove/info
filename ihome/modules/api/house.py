@@ -51,13 +51,13 @@ def upload_house_image(house_id):
     if not user_id:
         return jsonify(errno=RET.NODATA, errmsg="请登录")
 
-    house_id = request.args.get(house_id)
+    # house_id = request.args.get(house_id)
     if not house_id:
         return jsonify(errno=RET.NODATA, errmsg="未查询到数据")
-    house = House.query.get(house_id)
+    # house = House.query.get(house_id)
 
     #取到上传的图片
-    index_image = request.files.get("index_image")
+    index_image = request.files.get("house_image")
     if index_image:
         try:
             index_image = index_image.read()

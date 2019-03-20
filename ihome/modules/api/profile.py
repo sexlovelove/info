@@ -110,7 +110,7 @@ def get_user_auth():
     #1.取到当前登录用户id
     user_id = g.user_id
     if not user_id:
-        return jsonify(errno=RET.NODATA, errmsg="请登录")
+        return jsonify(errno=RET.SESSIONERR, errmsg="请登录")
 
     #2.通过id查找到当前用户
     user = None

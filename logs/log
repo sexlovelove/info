@@ -6835,3 +6835,11 @@ WARNING /home/python/.virtualenvs/HMHome/lib/python3.6/site-packages/werkzeug/_i
 INFO /home/python/.virtualenvs/HMHome/lib/python3.6/site-packages/werkzeug/_internal.py:88  * Debugger PIN: 309-604-739
 INFO /home/python/.virtualenvs/HMHome/lib/python3.6/site-packages/werkzeug/_internal.py:88  * Detected change in '/home/python/Desktop/LIJF/info/ihome/modules/api/order.py', reloading
 INFO /home/python/.virtualenvs/HMHome/lib/python3.6/site-packages/werkzeug/_internal.py:88  * Restarting with stat
+WARNING /home/python/.virtualenvs/HMHome/lib/python3.6/site-packages/werkzeug/_internal.py:88  * Debugger is active!
+INFO /home/python/.virtualenvs/HMHome/lib/python3.6/site-packages/werkzeug/_internal.py:88  * Debugger PIN: 309-604-739
+INFO /home/python/.virtualenvs/HMHome/lib/python3.6/site-packages/werkzeug/_internal.py:88  * Detected change in '/home/python/Desktop/LIJF/info/ihome/modules/api/profile.py', reloading
+WARNING /home/python/.virtualenvs/HMHome/lib/python3.6/site-packages/werkzeug/_internal.py:88  * Debugger is active!
+INFO /home/python/.virtualenvs/HMHome/lib/python3.6/site-packages/werkzeug/_internal.py:88  * Debugger PIN: 309-604-739
+INFO /home/python/.virtualenvs/HMHome/lib/python3.6/site-packages/werkzeug/_internal.py:88  * Detected change in '/home/python/Desktop/LIJF/info/ihome/modules/api/house.py', reloading
+WARNING /home/python/.virtualenvs/HMHome/lib/python3.6/site-packages/werkzeug/_internal.py:88  * Debugger is active!
+INFO /home/python/.virtualenvs/HMHome/lib/python3.6/site-packages/werkzeug/_internal.py:88  * Debugger PIN: 309-604-739

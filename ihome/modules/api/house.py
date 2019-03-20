@@ -61,11 +61,9 @@ def get_areas():
         area_list.append(a.to_dict())
 
     # 组织返回数据
-    data = {
-        'areas': area_list
-    }
 
-    return jsonify(errno=RET.OK, errmsg='查询成功', data=data)
+
+    return jsonify(errno=RET.OK, errmsg='查询成功', data=area_list)
 
 
 # 上传房屋图片

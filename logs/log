@@ -7469,3 +7469,7 @@ INFO /home/python/.virtualenvs/HMHome/lib/python3.6/site-packages/werkzeug/_inte
 INFO /home/python/.virtualenvs/HMHome/lib/python3.6/site-packages/werkzeug/_internal.py:88  * Restarting with stat
 WARNING /home/python/.virtualenvs/HMHome/lib/python3.6/site-packages/werkzeug/_internal.py:88  * Debugger is active!
 INFO /home/python/.virtualenvs/HMHome/lib/python3.6/site-packages/werkzeug/_internal.py:88  * Debugger PIN: 378-849-475
+INFO /home/python/.virtualenvs/HMHome/lib/python3.6/site-packages/werkzeug/_internal.py:88  * Detected change in '/home/python/Desktop/info/ihome/modules/api/house.py', reloading
+INFO /home/python/.virtualenvs/HMHome/lib/python3.6/site-packages/werkzeug/_internal.py:88  * Restarting with stat
+WARNING /home/python/.virtualenvs/HMHome/lib/python3.6/site-packages/werkzeug/_internal.py:88  * Debugger is active!
+INFO /home/python/.virtualenvs/HMHome/lib/python3.6/site-packages/werkzeug/_internal.py:88  * Debugger PIN: 378-849-475

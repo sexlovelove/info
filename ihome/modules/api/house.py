@@ -73,10 +73,18 @@ def upload_house_image(house_id):
             return jsonify(errno=RET.THIRDERR, errmsg="上传图片错误")
 
         #3.将上传返回的图片地址存储
-        house.index_image_url = constants.QINIU_DOMIN_PREFIX + key
+        house.index_image_url = key
+        try:
+            db.session.commit()
+        except Exception as e:
+            current_app.logger.error(e)
+            db.session.rollback()
+            return jsonify(errno=RET.DBERR, errmsg="保存数据出错")
+
+        index_image_url = constants.QINIU_DOMIN_PREFIX + key
 
         #4进行返回
-        data = {"url": house.index_image_url}
+        data = {"url": index_image_url}
         return jsonify(data=data, errno=RET.OK, errmsg="OK")
 
 

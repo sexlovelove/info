@@ -125,7 +125,49 @@ def change_order_status():
     5. 返回
     :return:
     """
-    pass
+    # 1.接受参数：order_id
+    user_id = g.user_id
+    action = request.json.get("action")
+    order_id = request.json.get("order_id")
+
+    if not user_id:
+        return jsonify(errno=RET.NODATA, errmsg="请登录")
+
+    if not all([order_id, action]):
+        return jsonify(errno=RET.PARAMERR, errmsg="参数错误")
+    if action not in ("accept", "reject"):
+        return jsonify(errno=RET.PARAMERR, errmsg="参数错误")
+
+    # 2.通过order_id找到指定的订单
+    order = None
+    try:
+        order = Order.query.filter(Order.id == order_id, Order.status == "WAIT_ACCEPT").first()
+    except Exception as e:
+        current_app.logger.error(e)
+        return jsonify(errno=RET.DBERR, errmsg="未查询到数据")
+
+    # 3. 修改订单状态
+    if action == "accept":
+        order.status = "WAIT_PAYMENT"
+    else:
+        reason = request.json.get("reason")
+        if not reason:
+            return jsonify(errno=RET.NODATA, errmsg="原因为空")
+        order.comment = reason
+        order.status = "CANCELED"
+
+    # 4.保存到数据库
+    try:
+        db.session.commit()
+    except Exception as e:
+        db.session.rollback()
+        current_app.logger.error(e)
+        return jsonify(errno=RET.DBERR, errmsg="数据保存失败")
+
+    # 5.返回
+    return jsonify(errno=RET.OK, errmsg="OK")
+
+
 
 
 # 评论订单

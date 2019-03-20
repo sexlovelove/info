@@ -75,6 +75,7 @@ def set_user_name():
         return jsonify(errno=RET.DATAEXIST, errmsg="用户名已被占用")
     # 将新用户名保存到数据库
     user.name = new_name
+    session["name"] = new_name
     try:
         db.session.commit()
     except Exception as e:

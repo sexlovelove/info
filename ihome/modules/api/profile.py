@@ -1,5 +1,5 @@
 from flask import request, current_app, jsonify, session, g
-
+import re
 from ihome import db
 from ihome.models import User
 from ihome.modules.api import api_blu
@@ -145,16 +145,19 @@ def set_user_auth():
     :return:
     """
 
-    #1.取到当前登录用户id
+    # 1.取到当前登录用户id
     user_id = g.user_id
 
-    #2.取到传过来的认证的信息
+    # 2.取到传过来的认证的信息
     real_name = request.json.get("real_name")
     id_card = request.json.get("id_card")
     if not all([real_name, id_card]):
         return jsonify(errno=RET.PARAMERR, errmsg="参数不足")
+    id_rule = "( ^[1-9]\d{5}(18|19|([23]\d))\d{2}((0[1-9])|(10|11|12))(([0-2][1-9])|10|20|30|31)\d{3}[0-9Xx]$)|(^[1-9]\d{5}\d{2}((0[1-9])|(10|11|12))(([0-2][1-9])|10|20|30|31)\d{2}$)"
+    if not re.match(id_rule, id_card):
+        return jsonify(errno=RET.PARAMERR, errmsg="身份证号码格式错误")
 
-    #3.通过id查找到当前用户
+    # 3.通过id查找到当前用户
     if not user_id:
         return jsonify(errno=RET.NODATA, errmsg="请登录")
     user = None
@@ -164,11 +167,11 @@ def set_user_auth():
         current_app.logger.error(e)
         return jsonify(errno=RET.DBERR, errmsg="查询错误")
 
-    #4.更新用户的认证信息
+    # 4.更新用户的认证信息
     user.id_card = id_card
     user.real_name = real_name
 
-    #5.保存到数据库
+    # 5.保存到数据库
     try:
         db.session.commit()
     except Exception as e:
@@ -176,6 +179,6 @@ def set_user_auth():
         current_app.logger.error(e)
         return jsonify(errno=RET.DBERR, errmsg="保存到数据库出错")
 
-    #6.返回结果
+    # 6.返回结果
     return jsonify(errno=RET.OK, errmsg="OK")
 

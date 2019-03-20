@@ -42,7 +42,7 @@ def add_order():
     except Exception as e:
         current_app.logger.error(e)
         return jsonify(errno=RET.PARAMERR, errmsg="格式错误")
-    if start_date <= end_date:
+    if start_date >= end_date:
         return jsonify(errno=RET.PARAMERR, errmsg="格式错误")
     # 预定天数
     days = end_date - start_date

@@ -110,7 +110,52 @@ def get_orders():
     2. 返回数据
     :return:
     """
-    pass
+    # 判断用户是否登录
+    user_id = g.user_id
+    if not user_id:
+        return jsonify(errno=RET.SESSIONERR, errmsg="用户尚未登录")
+    # 根据用户id获取用户对象
+    try:
+        user = User.query.get(user_id)
+    except Exception as e:
+        current_app.logger.error(e)
+        return jsonify(errno=RET.DBERR, errmsg="数据库查询错误")
+    # 判断user是否存在
+    if not user:
+        return jsonify(errno=RET.NODATA, errmsg="用户不存在")
+    # 判断当前是什么角色发送请求
+    role = request.args.get("role")
+    if not role:
+        return jsonify(errno=RET.PARAMERR, errmsg="参数不足")
+    if role not in (["custom", "landlord"]):
+        return jsonify(errno=RET.PARAMERR, errmsg="参数错误")
+    # 房客角色发送查看订单请求
+    if role == "custom":
+	# 订单字典列表
+        order_dict_list = []
+        order_list = user.orders
+	# 转化成字典
+        for order in order_list if order_list else []:
+            order_dict_list.append(order.to_dict())
+        data={
+            "orders":order_dict_list
+        }
+        return jsonify(errno=RET.OK, errmsg="ok", data=data)
+    # 房东角色发送请求
+    else:
+        # 用户发布的房子的id列表
+        houses_id_list = [house.id for house in user.houses]
+        # 属于该房东的订单列表
+        landlord_order_list = Order.query.filter(Order.house_id.in_(houses_id_list)).order_by(Order.create_time).all()
+        # 转化为字典列表
+        landlord_order_dict_list = []
+        for landlord_order in landlord_order_list if landlord_order_list else []:
+            landlord_order_dict_list.append(landlord_order.to_dict())
+        data = {
+            "orders": landlord_order_dict_list
+        }
+	# 返回数据
+        return jsonify(errno=RET.OK, errmsg="ok", data=data)
 
 
 # 接受/拒绝订单

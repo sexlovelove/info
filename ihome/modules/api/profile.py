@@ -93,7 +93,10 @@ def set_user_avatar():
 
     # 4. 返回上传的结果<avatar_url>
     avatar_url = constants.QINIU_DOMIN_PREFIX + avatar_image
-    return jsonify(errno=RET.OK, errmsg="成功", avatar_url=avatar_url)
+    data = {
+        "avatar_url":avatar_url
+    }
+    return jsonify(errno=RET.OK, errmsg="成功", data=data)
 
 
 # 获取用户实名信息

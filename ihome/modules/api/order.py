@@ -110,7 +110,50 @@ def get_orders():
     2. 返回数据
     :return:
     """
-    pass
+    # 判断用户是否登录
+    user_id = g.user_id
+    if not user_id:
+        return jsonify(errno=RET.SESSIONERR, errmsg="用户尚未登录")
+    # 根据用户id获取用户对象
+    try:
+        user = User.query.get(user_id)
+    except Exception as e:
+        current_app.logger.error(e)
+        return jsonify(errno=RET.DBERR, errmsg="数据库查询错误")
+    # 判断user是否存在
+    if not user:
+        return jsonify(errno=RET.NODATA, errmsg="用户不存在")
+    # 判断当前是什么角色发送请求
+    role = request.args.get("role")
+    if not role:
+        return jsonify(errno=RET.PARAMERR, errmsg="参数不足")
+    if role not in (["custom", "landlord"]):
+        return jsonify(errno=RET.PARAMERR, errmsg="参数错误")
+    # 房客角色发送查看订单请求
+    if role == "custom":
+        order_dict_list = []
+        order_list = []
+        order_list = user.orders
+        for order in order_list if order_list else []:
+            order_dict_list.append(order.to_dict())
+        data = {
+            "orders": order_dict_list
+        }
+        return jsonify(errno=RET.OK, errmsg="ok", data=data)
+    # 房东角色发送请求
+    else:
+        # 用户发布的房子的id列表
+        houses_id_list = [house.id for house in user.houses]
+        # 属于该房东的订单
+        landlord_order_list = Order.query.filter(Order.house_id.in_(houses_id_list)).order_by(Order.create_time).all()
+        # 转化为字典列表
+        landlord_order_dict_list = []
+        for landlord_order in landlord_order_list if landlord_order_list else []:
+            landlord_order_dict_list.append(landlord_order.to_dict())
+        data = {
+            "orders": landlord_order_dict_list
+        }
+        return jsonify(errno=RET.OK, errmsg="ok", data=data)
 
 
 # 接受/拒绝订单
@@ -125,13 +168,53 @@ def change_order_status():
     5. 返回
     :return:
     """
-    pass
+    # 1.接受参数：order_id
+    user_id = g.user_id
+    action = request.json.get("action")
+    order_id = request.json.get("order_id")
+
+    if not user_id:
+        return jsonify(errno=RET.NODATA, errmsg="请登录")
+
+    if not all([order_id, action]):
+        return jsonify(errno=RET.PARAMERR, errmsg="参数错误")
+    if action not in ("accept", "reject"):
+        return jsonify(errno=RET.PARAMERR, errmsg="参数错误")
+
+    # 2.通过order_id找到指定的订单
+    order = None
+    try:
+        order = Order.query.filter(Order.id == order_id, Order.status == "WAIT_ACCEPT").first()
+    except Exception as e:
+        current_app.logger.error(e)
+        return jsonify(errno=RET.DBERR, errmsg="未查询到数据")
+
+    # 3. 修改订单状态
+    if action == "accept":
+        order.status = "WAIT_PAYMENT"
+    else:
+        reason = request.json.get("reason")
+        if not reason:
+            return jsonify(errno=RET.NODATA, errmsg="原因为空")
+        order.comment = reason
+        order.status = "REJECTED"
+
+    # 4.保存到数据库
+    try:
+        db.session.commit()
+    except Exception as e:
+        db.session.rollback()
+        current_app.logger.error(e)
+        return jsonify(errno=RET.DBERR, errmsg="数据保存失败")
+
+    # 5.返回
+    return jsonify(errno=RET.OK, errmsg="OK")
 
 
 # 评论订单
 @api_blu.route('/orders/comment', methods=["PUT"])
 @login_required
-def order_comment():
+def order_comment(order_id):
     """
     订单评价
     1. 获取参数
@@ -142,6 +225,7 @@ def order_comment():
     # 1.获取参数(user_id:当前登录的用户对象 comment: 评论对象)
     param_dict = request.json
     comment = param_dict.get("comment")
+    order_id = param_dict.get("order_id")
     user_id = g.user_id
     # 2.校验参数
     # 非空判断
@@ -183,4 +267,4 @@ def order_comment():
     except Exception as e:
         current_app.logger.error(e)
 
-    return jsonify(errno=RET.OK, errmsg="OK")
+    return jsonify(errno=RET.OK, errmsg="OK", data=comment)
